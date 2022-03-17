@@ -6,7 +6,7 @@ export default {
   frontpage: {
     seo: {
       title: 'Recruto',
-      description: 'Recruto connects ideal candidates with aspiring companies'
+      description: 'Recruto conectează candidații ideali cu companiile optime'
     },
     title: 'Recruto',
     call_to_action: 'Găsește candidați',
@@ -56,30 +56,30 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     }
   },
   toolbar: {
-    home: 'Home',
-    result: 'Result',
-    compare: 'Compare',
+    home: 'pagina principala',
+    result: 'Rezultat',
+    compare: 'Comparaţie',
     articles: 'Articles',
     privacy: 'Privacy',
     about: 'About',
-    see_results: 'See your results',
-    compare_with: 'Compare with others'
+    see_results: 'Vezi rezultatele tale',
+    compare_with: 'Comparați cu alții'
   },
   facets: {
     openness_to_experience: {
-      title: 'Openness to experience'
+      title: 'Deschidere spre experiență'
     },
     conscientiousness: {
-      title: 'Conscientiousness'
+      title: 'Conştiinciozitate'
     },
     extraversion: {
-      title: 'Extraversion'
+      title: 'Extraversie'
     },
     agreeableness: {
-      title: 'Agreeableness'
+      title: 'Amabilitatea'
     },
     neuroticism: {
-      title: 'Neuroticism'
+      title: 'Nevrotism'
     }
   },
   common: {
@@ -111,10 +111,10 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     toTestButton: 'Alrighty, take me to the test'
   },
   test: {
-    next: 'next',
-    back: 'back',
-    more: 'more',
-    seeResults: 'see results'
+    next: 'Următorul',
+    back: 'înapoi',
+    more: 'Mai mult',
+    seeResults: 'vezi rezultate'
   },
   big_five: {
     title: 'What are the big five?',
@@ -124,204 +124,204 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     }
   },
   openness_to_experience: {
-    title: 'Openness to Experience',
+    title: 'Deschidere către experiență',
     seo: {
-      title: 'Overview of the domain Openness To Experience.',
-      description: 'Read more about the Openness To Experience domain in the b5 model'
+      title: 'Prezentare generală a domeniului Deschidere către experiență',
+      description: 'Citiți mai multe despre domeniul Deschidere către experiență în modelul b5'
     }
   },
   conscientiousness: {
-    title: 'Conscientiousness',
+    title: 'Conştiinciozitate',
     seo: {
-      title: 'Overview of the domain Conscientiousness',
-      description: 'Read more about the Conscientiousness domain in the b5 model'
+      title: 'Prezentare generală a domeniului Conştiinciozitate',
+      description: 'Citiți mai multe despre domeniul Conştiinciozitate în modelul b5'
     }
   },
   extraversion: {
-    title: 'Extraversion',
+    title: 'Extraversie',
     seo: {
-      title: 'Overview of the domain Extraversion',
-      description: 'Read more about the Extraversion domain in the b5 model'
+      title: 'Prezentare generală a domeniului Extraversie',
+      description: 'Citiți mai multe despre domeniul Extraversie în modelul b5'
     }
   },
   agreeableness: {
-    title: 'Agreeableness',
+    title: 'Amabilitatea',
     seo: {
-      title: 'Overview of the domain Agreeableness',
-      description: 'Read more about the agreeableness domain in the b5 model'
+      title: 'Prezentare generală a domeniului Amabilitatea',
+      description: 'Citiți mai multe despre domeniul Amabilitatea în modelul b5'
     }
   },
   neuroticism: {
-    title: 'Neuroticism',
+    title: 'Nevrotism',
     seo: {
-      title: 'Overview of the domain Neuroticism',
-      description: 'Read more about the Neuroticism domain in the b5 model'
+      title: 'Prezentare generală a domeniului Nevrotism',
+      description: 'Citiți mai multe despre domeniul Nevrotism în modelul b5'
     }
   },
   getCompare: {
-    title: 'Compare people or teams',
-    description1: 'Compare results from the bigfive personality test with multiple people.',
-    description2: 'Type in the ID you got from the test results i.e.',
-    description3: 'in the ID-input field',
+    title: 'Comparați oameni sau echipe',
+    description1: 'Comparați rezultatele testului de personalitate Bigfive cu mai multe persoane.',
+    description2: 'Introduceți ID-ul pe care l-ați primit din rezultatele testului, de exemplu',
+    description3: 'în câmpul de introducere a ID-ului',
     needToAddPeople: 'You need to add people to compare them',
-    addAnother: 'Add another person',
-    addPerson: 'Add Person',
-    comparePeople: 'compare people',
-    nameOfPerson: 'Name of this person',
-    urlOrId: 'URL or ID for comparison',
-    name: 'Name'
+    addAnother: 'Trebuie să adăugați oameni pentru a le compara',
+    addPerson: 'Adăugați o persoană',
+    comparePeople: 'compara oamenii',
+    nameOfPerson: 'Numele acestei persoane',
+    urlOrId: 'URL sau ID pentru comparație',
+    name: 'Nume'
   },
   results: {
     theBigFive: 'The Big Five',
-    score: 'score',
+    score: 'Scor',
     important: 'Important!',
-    saveResults: 'Save the following ID to see the results later or ',
-    compare: 'compare',
-    toOthers: 'yourself to others',
+    saveResults: 'Vă rugăm să trimiteți formularul de mai jos pentru a vă rezerva sesiunea gratuită puteți salva ID-ul pentru ',
+    compare: 'a compara ',
+    toOthers: 'cu alții',
     seo: {
-      title: 'My results from the BigFive personality test',
-      description: 'See my personality and compare yourself in the following five domains: Neuroticism, Openness To Experience, Conscientiousness, Extraversion, Agreeableness'
+      title: 'Rezultatele mele de la testul de personalitate BigFive',
+      description: 'Vedeți-mi personalitatea și comparați-vă în următoarele cinci domenii: nevrotism, deschidere către experiență, conștiință, extraversie, agreabilitate'
     }
   },
   getResult: {
-    result: 'Result',
-    explanation: 'If you have taken the test and saved your ID, you can see the results here by typing in the ID you got i.e. ',
-    idInput: 'in the ID-input field',
-    urlOrId: 'URL or ID of your result',
-    getResult: 'Get result',
-    viewPrevious: 'View Previous Result'
+    result: 'Rezultat',
+    explanation: 'Dacă ați susținut testul și ați salvat ID-ul, puteți vedea rezultatele aici tastând, de exemplu, dacă ați primit ',
+    idInput: 'în câmpul de introducere a ID-ului',
+    urlOrId: 'URL-ul sau ID-ul rezultatului dvs',
+    getResult: 'Obține rezultat',
+    viewPrevious: 'Vedeți rezultatul anterior'
   },
   shareLinks: {
-    copyLink: 'Copy link to clipboard',
-    shareFacebook: 'Share on Facebook',
-    shareTwitter: 'Share on Twitter',
-    copiedLink: 'Copied link',
-    shareResults: 'Share your results!'
+    copyLink: 'Copiați linkul în clipboard',
+    shareFacebook: 'Distribuie pe Facebook',
+    shareTwitter: 'Distribuie pe Twitter',
+    copiedLink: 'Link copiat',
+    shareResults: 'Împărtășiți-vă rezultatele!'
   },
   opennessToExperience: {
-    quote: 'Openness to Experience describes a dimension of cognitive style that distinguishes imaginative, creative people from down-to-earth, conventional people.',
+    quote: 'Deschiderea către experiență descrie o dimensiune a stilului cognitiv care distinge oamenii imaginativi și creativi de oamenii convenționali, cu picioarele pe pământ.',
     text1: `
       <p>
-        Openness to Experience describes a dimension of cognitive style that distinguishes imaginative, creative people from down-to-earth, conventional people.
+        Deschiderea către experiență descrie o dimensiune a stilului cognitiv care distinge oamenii imaginativi și creativi de oamenii convenționali, cu picioarele pe pământ.
       </p>
       <p>
-        Open people are <b>intellectually curious, appreciative of art, and sensitive to beauty</b>.
-        They tend to be, compared to closed people, more <b>aware of their feelings</b>.
-        They tend to think and act in individualistic and nonconforming ways.
+        Oamenii deschisi sunt <b>curios din punct de vedere intelectual, apreciator de artă și sensibil la frumos</b>.
+        Ei tind să fie, în comparație cu oamenii închisi, Mai mult <b>conștienți de sentimentele lor</b>.
+        Ei tind să gândească și să acționeze în moduri individualiste și neconforme.
       </p>
       <p>
-        Intellectuals typically score high on Openness to Experience; consequently, this factor has also been called Culture or Intellect.
+       Intelectualii obțin de obicei un scor mare la Deschiderea către experiență; în consecință, acest factor a fost numit și Cultură sau Intelect.
       </p>
     `,
     text2: `
       <p>
-        Nonetheless, Intellect is probably best regarded as one aspect of openness to experience.
-        Scores on Openness to Experience are only modestly related to years of education and scores on standard intelligent tests.
+        Cu toate acestea, intelectul este probabil cel mai bine privit ca un aspect al deschiderii către experiență.
+         Scorurile la deschiderea către experiență sunt doar modest legate de anii de educație și scorurile la testele inteligente standard.
       </p>
       <p>
-        Another characteristic of the open cognitive style is a facility for thinking in symbols and abstractions far removed from concrete experience.
+       O altă caracteristică a stilului cognitiv deschis este o facilitate de a gândi în simboluri și abstracțiuni departe de experiența concretă.
       </p>
       <p>
-        Depending on the individual's specific intellectual abilities, this symbolic cognition may take the form of mathematical, logical, or geometric thinking, artistic and metaphorical use of language, music composition or performance, or one of the many visual or performing arts.
+       În funcție de abilitățile intelectuale specifice ale individului, această cunoaștere simbolică poate lua forma gândirii matematice, logice sau geometrice, utilizarea artistică și metaforică a limbajului, compoziția sau interpretarea muzicii sau una dintre numeroasele arte vizuale sau spectacolului.
       </p>
       <div class="title">
-        Low scores
+        Scoruri mici
       </div>
       <p>
-        People with <b>low scores</b> on openness to experience tend to have <b>narrow, common interests</b>.
+        Oameni cu <b>Scoruri mici</b> pe deschiderea către experiență tind să aibă <b>narrow, interese comune</b>.
       </p>
       <p>
-        They prefer the <b>plain, straightforward</b>, and obvious over the complex, ambiguous, and subtle.
+       Ei preferă <b>simple, simplu</b> și evident decât complex, ambiguu și subtil.
       </p>
       <p>
-        They may regard the arts and sciences with suspicion, regarding these endeavors as abstruse or of no practical use.
+       Ei pot privi cu suspiciune artele și științele, considerând aceste eforturi ca fiind abstruse sau lipsite de utilitate practică.
       </p>
       <p>
-        Closed people prefer familiarity over novelty; they are conservative and resistant to change.
+       Oamenii închiși preferă familiaritatea decât noutatea; sunt conservatori și rezistenti la schimbare.
       </p>
       <p>
-        Openness is often presented as healthier or more mature by psychologists, who are often themselves open to experience. However, open and closed styles of thinking are useful in different environments.
+       Deschiderea este adesea prezentată ca fiind mai sănătoasă sau mai matură de către psihologi, care sunt adesea ei înșiși deschiși la experiență. Cu toate acestea, stilurile de gândire deschise și închise sunt utile în diferite medii.
       </p>
       <p>
-      The intellectual style of the open person may serve a professor well, but research has shown that closed thinking is related to superior job performance in police work, sales, and a number of service occupations.
+     Stilul intelectual al persoanei deschise poate fi de folos unui profesor, dar cercetările au arătat că gândirea închisă este legată de performanțe superioare la locul de muncă în munca de poliție, vânzări și o serie de ocupații de servicii.
       </p>
 
       <div class="title">
-        Imagination
+        Imaginație
       </div>
       <p>
-        To imaginative individuals, the real world is often too plain and ordinary.
+        Pentru indivizii imaginativi, lumea reală este adesea prea simplă și obișnuită.
       </p>
       <p>
-        <b>High scorers</b> on this scale use fantasy as a way of creating a richer, more interesting world.
+        <b>Marcatori mari</b> la această scară folosiți fantezia ca o modalitate de a crea o lume mai bogată, mai interesantă.
       </p>
       <p>
-      <b>Low scorers</b> are on this scale are more oriented to facts than fantasy.
+      <b>Marcatori mici</b> sunt la această scară sunt mai orientate spre fapte decât spre fantezie.
       </p>
 
       <div class="title">
-        Artistic Interests
+       Interese artistice
       </div>
       <p>
-      <b>High scorers</b> on this scale love beauty, both in art and in nature. They become easily involved and absorbed in artistic and natural events.
+      <b>Marcatori mari</b> pe această scară iubesc frumosul, atât în artă, cât și în natură. Ei devin ușor implicați și absorbiți în evenimente artistice și naturale.
       </p>
       <p>
-        They are not necessarily artistically trained nor talented, although many will be. The defining features of this scale are interest in, and appreciation of natural and artificial beauty.
+       Nu sunt neapărat pregătiți artistic și nici talentați, deși mulți vor fi. Caracteristicile definitorii ale acestei scale sunt interesul și aprecierea frumuseții naturale și artificiale.
       </p>
       <p>
-        <b>Low scorers</b> lack aesthetic sensitivity and interest in the arts.
+        <b>Marcatori mici</b> lipsă de sensibilitate estetică și de interes pentru arte.
       </p>
 
       <div class="title">
-        Emotionality
+        Afectivitate
       </div>
       <p>
-        Persons high on Emotionality have good access to and awareness of their own feelings.
+       Persoanele cu nivel ridicat de Emotivitate au acces bun la propriile sentimente și conștientizarea acestora.
       </p>
       <p>
-        Low scorers are less aware of their feelings and tend not to express their emotions openly.
+       Cei care au scoruri mici sunt mai puțin conștienți de sentimentele lor și au tendința de a nu-și exprima emoțiile în mod deschis.
       </p>
 
       <div class="title">
-        Adventurousness
+        Aventură
       </div>
       <p>
-        High scorers on adventurousness are eager to try new activities, travel to foreign lands, and experience different things.
+       Cei care au scoruri mari la aventură sunt dornici să încerce activități noi, să călătorească în țări străine și să experimenteze lucruri diferite.
       </p>
       <p>
-        They find familiarity and routine boring, and will take a new route home just because it is different.
+        Ei găsesc familiaritatea și rutina plictisitoare și vor lua un nou drum spre casă doar pentru că este diferit.
       </p>
       <p>
-        Low scorers tend to feel uncomfortable with change and prefer familiar routines.
+        Cei care au scoruri mici tind să se simtă inconfortabil cu schimbarea și preferă rutinele familiare.
       </p>
 
       <div class="title">
-        Intellect
+        Intelect
       </div>
       <p>
-        Intellect and artistic interests are the two most important, central aspects of openness to experience. High scorers on Intellect love to play with ideas.
+      Intelectul și interesele artistice sunt cele mai importante două aspecte centrale ale deschiderii către experiență. Cei care obțin scoruri mari la Intellect adoră să se joace cu ideile.
       </p>
       <p>
-        They are open-minded to new and unusual ideas, and like to debate intellectual issues. They enjoy riddles, puzzles, and brain teasers. Low scorers on Intellect prefer dealing with either people or things rather than ideas.
+        Sunt deschiși la idei noi și neobișnuite și le place să dezbate probleme intelectuale. Le plac ghicirile, puzzle-urile și jocurile de creier. Persoanele cu scoruri scăzute la Intellect preferă să se ocupe fie de oameni, fie de lucruri, decât de idei.
       </p>
       <p>
-        They regard intellectual exercises as a waste of time.
+       Ei consideră exercițiile intelectuale ca pe o pierdere de timp.
       </p>
       <p>
-        Intellect should not be equated with intelligence. Intellect is an intellectual style, not an intellectual ability, although high scorers on Intellect score slightly higher than low-Intellect individuals on standardized intelligence tests.
+       Intelectul nu trebuie echivalat cu inteligența. Intelectul este un stil intelectual, nu o abilitate intelectuală, deși cei cu scoruri mari la Intelect obțin un scor ușor mai mare decât persoanele cu inteligență scăzută la testele standardizate de inteligență.
       </p>
 
       <div class="title">
         Liberalism
       </div>
       <p>
-        Psychological liberalism refers to a readiness to challenge authority, convention, and traditional values.
+       Liberalismul psihologic se referă la disponibilitatea de a contesta autoritatea, convențiile și valorile tradiționale.
       </p>
       <p>
-        In its most extreme form, psychological liberalism can even represent outright hostility toward rules, sympathy for law-breakers, and love of ambiguity, chaos, and disorder.
+       În forma sa cea mai extremă, liberalismul psihologic poate reprezenta chiar ostilitate totală față de reguli, simpatie pentru cei care încalcă legea și dragoste pentru ambiguitate, haos și dezordine.
       </p>
       <p>
-        Psychological conservatives prefer the security and stability brought by conformity to tradition. Psychological liberalism and conservatism are not identical to political affiliation, but certainly incline individuals toward certain political parties.
+       Conservatorii psihologici preferă securitatea și stabilitatea aduse de conformitatea cu tradiția. Liberalismul psihologic și conservatorismul nu sunt identice cu afilierea politică, dar cu siguranță înclină indivizii către anumite partide politice.
       </p>
     `
   }

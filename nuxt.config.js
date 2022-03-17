@@ -24,7 +24,7 @@ export default {
       { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'BigFive logo' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
       // { rel: 'preconnect', href: 'https://cdn.jsdelivr.net', crossorigin: true }
     ]
   },

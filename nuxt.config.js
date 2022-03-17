@@ -14,14 +14,14 @@ export default {
       { hid: 'og:title', name: 'og:title', content: 'Free open-source BigFive personality traits test' },
       { hid: 'og:description', name: 'og:description', content: 'Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
-      { hid: 'og:url', name: 'og:url', content: 'https://bigfive-test.com' },
-      { hid: 'og:image', name: 'og:image', content: 'https://bigfive-test.com/icon.png' },
+      { hid: 'og:url', name: 'og:url', content: 'https://recruto.ro' },
+      { hid: 'og:image', name: 'og:image', content: 'https://recruto.ro/icon.png' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@maccyber' },
       { hid: 'twitter:title', name: 'twitter:title', content: 'Free open-source BigFive personality traits test' },
       { hid: 'twitter:description', name: 'twitter:description', content: 'Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family' },
-      { hid: 'twitter:image', name: 'twitter:image', content: 'https://bigfive-test.com/icon.png' },
-      { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'BigFive logo' }
+      { hid: 'twitter:image', name: 'twitter:image', content: 'https://recruto.ro/icon.png' },
+      { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Recruto logo' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }
@@ -132,7 +132,7 @@ export default {
             dir: 'ltr'
           },
           {
-            name: 'Hindi',
+            name: 'English',
             code: 'hi',
             iso: 'hi',
             file: 'hi.js',
@@ -278,22 +278,22 @@ export default {
       themes: {
         light: {
           primary: '#000000',
-          secondary: '#ff0080',
+          secondary: '#39b3ed',
           accent: '#607d8b',
           error: '#f44336',
           warning: '#ff9800',
           info: '#03a9f4',
           success: '#7dde76',
-          anchor: '#ff0080'
+          anchor: '#ecb855'
         }
       }
     }
   },
   env: {
     API_URL: 'https://recruto.ro/api/',
-    MONGODB_URI: 'mongodb:mongodb+srv://hamid:hamid12345@cluster0.maldw.mongodb.net/big5?retryWrites=true&w=majority',
+    MONGODB_URI: 'mongodb+srv://hamid:hamid12345@cluster0.maldw.mongodb.net/big5?retryWrites=true&w=majority',
     MONGODB_COLLECTION: 'results',
-    BASE_URL: 'http://localhost:3000' // TODO: Fix for dev environment
+    BASE_URL: 'https://recruto.ro' // TODO: Fix for dev environment
   },
   build: {
     extractCSS: true,

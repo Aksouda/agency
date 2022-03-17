@@ -1,5 +1,5 @@
 export default {
-  language: 'English',
+  language: 'Romanian',
   seo: {
     keywords: 'big five personality test, big 5 personality test, b5 test, bigfive test, personality traits, bigfive, compare, free, jordan peterson'
   },
@@ -95,8 +95,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     privacy: 'privacy',
     nextButton: 'Okey, next question',
     declineButton: 'continue without sharing',
-    prefferedLanguage: 'My preferred language is',
-    selectLanguage: 'Select a language',
+    prefferedLanguage: 'Limba mea preferată este',
+    selectLanguage: 'Selectați o limbă',
     iama: 'I am a',
     male: 'Male',
     female: 'Female',

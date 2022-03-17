@@ -47,10 +47,6 @@
            :value="$route.params.id">
       </div>
       
-      <BarChart
-        :data="results"
-        :max="Number(120)"
-      />
       <div
         v-for="domain in results"
         :key="domain.id"
@@ -85,6 +81,10 @@ form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neurot
 <div class="display-1 mt-6">
         {{ $t('results.theBigFive') }}
       </div>
+       <BarChart
+        :data="results"
+        :max="Number(120)"
+      />
       <div
         v-for="domain in results"
         :key="domain.id"

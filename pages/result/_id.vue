@@ -41,7 +41,7 @@
         <ShareLinks :id="'result/' + $route.params.id" />
       </div>
 <input
-           :id="testid"
+           :id="examid"
            type="hidden"
            name="fname"
            :value="window.location.href">
@@ -63,7 +63,7 @@ var Neuroticism = document.getElementById('Neuroticism').value;
 var Openness = document.getElementById('Openness To Experience').value;
 var Conscientiousness = document.getElementById('Conscientiousness').value;
 var Agreeableness = document.getElementById('Agreeableness').value;
-var testid = document.getElementById('testid').value;
+var testid = document.getElementById('examid').value;
 console.log(Openness);
 
 </script>

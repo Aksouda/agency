@@ -132,7 +132,7 @@ export default {
             dir: 'ltr'
           },
           {
-            name: 'Hindi',
+            name: 'Hind',
             code: 'hi',
             iso: 'hi',
             file: 'hi.js',

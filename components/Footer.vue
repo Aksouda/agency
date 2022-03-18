@@ -20,16 +20,14 @@
             >
               <v-icon large>{{ mdiFacebook }}</v-icon>
             </a>
-
             <v-divider
               inset
               vertical
               class="mx-1"
             />
-
             <a
-              href="https://github.com/recruto.ro"
-              aria-label="Gå til github"
+              href="https://instagram.com/recruto.ro"
+              aria-label="Instagram"
             >
               <v-icon large>{{ mdiInstagram }}</v-icon>
             </a>

@@ -1,7 +1,7 @@
 {
   "name": "bigfive-api",
   "version": "1.0.0",
-  "description": "API for big five test",
+  "description": "API for 2 big five test",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm i"

@@ -2,20 +2,20 @@
   <v-footer class="pl-10 pt-10">
     <v-row class="footer-container">
       <v-col
-        sm="12"
+        sm="6"
         md="6"
         class="pl-0 pt-0"
       >
         <v-row class="footer-wrapper pl-0">
           <v-col class="footer-heading">
-            SAY<br>HALLO
+            SPUNE<br>BUNA
           </v-col>
           <v-col
             cols="12"
             class="pt-0"
           >
             <a
-              href="https://www.facebook.com/rubynorno/"
+              href="https://www.facebook.com/recruto.ro/"
               aria-label="Gå til facebook"
             >
               <v-icon large>{{ mdiFacebook }}</v-icon>
@@ -28,7 +28,7 @@
             />
 
             <a
-              href="https://github.com/rubynor"
+              href="https://instagram.com/recruto.ro"
               aria-label="Gå til github"
             >
               <v-icon large>{{ mdiInstagram }}</v-icon>
@@ -41,31 +41,21 @@
             />
           </v-col>
           <v-col
-            cols="12"
-            class="footer-about"
-          >
-            Rubynor<br>
-            Bedriftsveien 64<br>
-            3735 Skien, Norway<br><br>
-            bigfive-test@rubynor.com<br>
-          </v-col>
-          <v-col
             class="footer-text"
             cols="12"
           >
-            © {{ new Date().getFullYear() }} — Rubynor - all rights reserved.
+            © {{ new Date().getFullYear() }} — Recruto - all rights reserved.
           </v-col>
         </v-row>
       </v-col>
-      <v-col cols="auto">
-        <h3 class="mb-2">
-          Having questions about or problems with the site?
-        </h3>
-        Please read the <nuxt-link
-          :to="localePath('faq')"
-        >
-          <a @click="logClick('FAQ')">FAQ</a>
-        </nuxt-link>.
+      <v-col
+        cols="6"
+        class="footer-about"
+      >
+        Recruto<br>
+        Bedriftsveien 64<br>
+        3735 Skien, Romania<br><br>
+        info@Recruto.ro<br>
       </v-col>
     </v-row>
   </v-footer>
@@ -73,13 +63,14 @@
 
 <script>
 import { mdiFacebook, mdiTwitter, mdiInstagram, mdiLinkedin } from '@mdi/js'
+
 export default {
   name: 'Footer',
   data: () => ({
     mdiFacebook,
     mdiTwitter,
     mdiLinkedin,
-    mdiInstagram
+    mdiGithub
   }),
   methods: {
     logClick (choice) {

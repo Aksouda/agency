@@ -52,10 +52,6 @@
         cols="6"
         class="footer-about"
       >
-        Recruto<br>
-        Bedriftsveien 64<br>
-        3735 Skien, Romania<br><br>
-        info@Recruto.ro<br>
       </v-col>
     </v-row>
   </v-footer>

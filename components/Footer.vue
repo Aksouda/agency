@@ -28,7 +28,7 @@
             />
 
             <a
-              href="https://instagram.com/recruto"
+              href="https://instagram.com/recruto/"
               aria-label="Gå til github"
             >
               <v-icon large>{{ mdiInstagram }}</v-icon>

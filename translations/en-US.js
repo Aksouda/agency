@@ -13,7 +13,7 @@ export default {
     cta_candidate: 'Consiliere în carieră gratuită',
     more_info: 'Afla mai multe',
     welcome_banner: 'Legătura perfectă dintre candidați și companii. Personalizare 100% pentru o potrivire 100%.',
-    tests_taken: 'Recruto lucreaza cu tine, pentru tine',
+    tests_taken: 'Recruto lucrează cu tine, pentru tine',
     find_dream_job: {
       title: 'Îți punem la dispoziție toate resursele necesare pentru a-ți găsi cel mai potrivit job ',
       text1: 'Mai mult decât o listă de joburi. Prin consilierea gratuită în carieră evaluăm împreună abilitățile tale, așteptările și dorințele legate de jobul dorit, iar apoi te promovăm companiilor potrivite pentru tine',
@@ -23,16 +23,16 @@ export default {
     share: 'Completează formularul de mai jos și fii cu un pas mai aproape de jobul tău visat',
     cards: {
       open: {
-        title: 'nici o nepotrivire',
+        title: 'Nici o nepotrivire',
         text: 'Elimină incompatibilitatea la locul de muncă'
       },
       free: {
-        title: 'gratuită',
+        title: 'Gratuită',
         text: 'Consiliere în carieră gratuită'
       },
       scientific: {
-        title: 'Recomandare 100% personalizata',
-        text: 'Recomandare 100% personalizata la jobul unde te vei simti cel mai bine'
+        title: 'Recomandare 100% personalizată',
+        text: 'Recomandare 100% personalizată la jobul unde te vei simti cel mai bine'
       }
     },
     description: {

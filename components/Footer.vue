@@ -53,8 +53,8 @@
         class="footer-about"
       >
         Recruto<br>
-        Bedriftsveien 64<br>
-        3735 Skien, Romania<br><br>
+        Bulevardul Iuliu Maniu 6L, Etajul I București<br>
+        România 061103 București<br><br>
         info@Recruto.ro<br>
       </v-col>
     </v-row>

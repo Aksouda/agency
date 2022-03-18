@@ -28,36 +28,10 @@
             />
 
             <a
-              href="https://github.com/rubynor"
+              href="https://github.com/recruto.ro"
               aria-label="Gå til github"
             >
-              <v-icon large>{{ mdiGithub }}</v-icon>
-            </a>
-
-            <v-divider
-              inset
-              vertical
-              class="mx-1"
-            />
-
-            <a
-              href="https://twitter.com/rubynor"
-              aria-label="Gå til twitter"
-            >
-              <v-icon large>{{ mdiTwitter }}</v-icon>
-            </a>
-
-            <v-divider
-              inset
-              vertical
-              class="mx-1"
-            />
-
-            <a
-              href="https://no.linkedin.com/company/rubynor-as"
-              aria-label="Gå til linkedIn"
-            >
-              <v-icon large>{{ mdiLinkedin }}</v-icon>
+              <v-icon large>{{ mdiInstagram }}</v-icon>
             </a>
           </v-col>
           <v-col
@@ -82,7 +56,7 @@
 </template>
 
 <script>
-import { mdiFacebook, mdiTwitter, mdiGithub, mdiLinkedin } from '@mdi/js'
+import { mdiFacebook, mdiTwitter, mdiInstagram, mdiLinkedin } from '@mdi/js'
 
 export default {
   name: 'Footer',

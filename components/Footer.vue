@@ -15,7 +15,7 @@
             class="pt-0"
           >
             <a
-              href="https://www.facebook.com/rubynorno/"
+              href="https://www.facebook.com/recruto.ro/"
               aria-label="Gå til facebook"
             >
               <v-icon large>{{ mdiFacebook }}</v-icon>
@@ -73,8 +73,8 @@
         class="footer-about"
       >
         Recruto<br>
-        Bedriftsveien 64<br>
-        3735 Skien, Romania<br><br>
+        6L Iuliu Maniu Boulevard,Primul etaj<br>
+        România 061103 Bucureşti<br><br>
         info@Recruto.ro<br>
       </v-col>
     </v-row>

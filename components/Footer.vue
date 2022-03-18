@@ -2,52 +2,70 @@
   <v-footer class="pl-10 pt-10">
     <v-row class="footer-container">
       <v-col
-        sm="6"
+        sm="12"
         md="6"
         class="pl-0 pt-0"
       >
         <v-row class="footer-wrapper pl-0">
           <v-col class="footer-heading">
-            SPUNE<br>BUNA
+            SAY<br>HALLO
           </v-col>
           <v-col
             cols="12"
             class="pt-0"
           >
             <a
-              href="https://www.facebook.com/recruto.ro/"
+              href="https://www.facebook.com/rubynorno/"
               aria-label="Gå til facebook"
             >
               <v-icon large>{{ mdiFacebook }}</v-icon>
             </a>
+
             <v-divider
               inset
               vertical
               class="mx-1"
             />
+
             <a
-              href="https://instagram.com/recruto.ro"
-              aria-label="Instagram"
+              href="https://github.com/rubynor"
+              aria-label="Gå til github"
             >
               <v-icon large>{{ mdiInstagram }}</v-icon>
             </a>
+
+            <v-divider
+              inset
+              vertical
+              class="mx-1"
+            />
+          </v-col>
+          <v-col
+            cols="12"
+            class="footer-about"
+          >
+            Rubynor<br>
+            Bedriftsveien 64<br>
+            3735 Skien, Norway<br><br>
+            bigfive-test@rubynor.com<br>
           </v-col>
           <v-col
             class="footer-text"
             cols="12"
           >
-            © {{ new Date().getFullYear() }} — Recruto - all rights reserved.
+            © {{ new Date().getFullYear() }} — Rubynor - all rights reserved.
           </v-col>
         </v-row>
       </v-col>
-      <v-col
-        cols="6"
-        class="footer-about"
-      >
-        Recruto<br>
-        6L Iuliu Maniu Boulevard,Primul etaj<br>
-        România 061103 Bucureşti<br><br>
-        info@Recruto.ro<br>
+      <v-col cols="auto">
+        <h3 class="mb-2">
+          Having questions about or problems with the site?
+        </h3>
+        Please read the <nuxt-link
+          :to="localePath('faq')"
+        >
+          <a @click="logClick('FAQ')">FAQ</a>
+        </nuxt-link>.
       </v-col>
     </v-row>
   </v-footer>
@@ -55,14 +73,13 @@
 
 <script>
 import { mdiFacebook, mdiTwitter, mdiInstagram, mdiLinkedin } from '@mdi/js'
-
 export default {
   name: 'Footer',
   data: () => ({
     mdiFacebook,
     mdiTwitter,
     mdiLinkedin,
-    mdiGithub
+    mdiInstagram
   }),
   methods: {
     logClick (choice) {

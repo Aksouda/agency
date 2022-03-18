@@ -15,7 +15,7 @@
             class="pt-0"
           >
             <a
-              href="https://www.facebook.com/recruto.ro/"
+              href="https://www.facebook.com/recruto/"
               aria-label="Gå til facebook"
             >
               <v-icon large>{{ mdiFacebook }}</v-icon>
@@ -28,7 +28,7 @@
             />
 
             <a
-              href="https://instagram.com/recruto.ro"
+              href="https://instagram.com/recruto"
               aria-label="Gå til github"
             >
               <v-icon large>{{ mdiInstagram }}</v-icon>
@@ -52,6 +52,10 @@
         cols="6"
         class="footer-about"
       >
+        Recruto<br>
+        Bedriftsveien 64<br>
+        3735 Skien, Romania<br><br>
+        info@Recruto.ro<br>
       </v-col>
     </v-row>
   </v-footer>

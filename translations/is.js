@@ -11,7 +11,7 @@ export default {
     title: 'Recruto',
     call_to_action: 'Find Candidates',
     cta_candidate: 'I want to be Hired',
-    no_registration: '* No registration required',
+    no_registration: '*No registration required',
     tests_taken: 'Find your dream job',
     find_dream_job: {
       title: 'Find your dream job and connect with an employer that fits your style',

@@ -70,7 +70,7 @@ export default {
     mdiFacebook,
     mdiTwitter,
     mdiLinkedin,
-    mdiGithub
+    mdiInstagram
   }),
   methods: {
     logClick (choice) {

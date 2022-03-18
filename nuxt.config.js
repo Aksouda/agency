@@ -132,7 +132,7 @@ export default {
             dir: 'ltr'
           },
           {
-            name: 'English',
+            name: 'Hindi',
             code: 'hi',
             iso: 'hi',
             file: 'hi.js',
@@ -202,7 +202,7 @@ export default {
             dir: 'ltr'
           },
           {
-            name: 'Icelandic',
+            name: 'English',
             code: 'is',
             iso: 'is',
             file: 'is.js',

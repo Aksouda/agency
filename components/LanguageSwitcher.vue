@@ -31,17 +31,23 @@
       <v-divider />
       <v-row>
         <v-col
-          v-for="locale in availableLocales"
-          :key="locale.code"
           cols="6"
         >
           <v-list-item
             link
-            :to="switchLocalePath(locale.code)"
+            :to="switchLocalePath('en')"
             class="text-none font-weight-regular pl-5 body-2"
-            @click="logClick(locale.code)"
+            @click="logClick('en')"
           >
-            {{ locale.name }}
+            Română
+          </v-list-item>
+               <v-list-item
+            link
+            :to="switchLocalePath('is')"
+            class="text-none font-weight-regular pl-5 body-2"
+            @click="logClick('is')"
+          >
+            English
           </v-list-item>
         </v-col>
       </v-row>
@@ -50,7 +56,7 @@
 </template>
 
 <script>
-import enIcon from 'svg-country-flags/svg/ro.svg'
+import enIcon from 'svg-country-flags/svg/gb.svg'
 import heIcon from 'svg-country-flags/svg/il.svg'
 import jaIcon from 'svg-country-flags/svg/jp.svg'
 import noIcon from 'svg-country-flags/svg/no.svg'
@@ -68,7 +74,7 @@ import idIcon from 'svg-country-flags/svg/id.svg'
 import ptIcon from 'svg-country-flags/svg/pt.svg'
 import itIcon from 'svg-country-flags/svg/it.svg'
 import plIcon from 'svg-country-flags/svg/pl.svg'
-import isIcon from 'svg-country-flags/svg/gb.svg'
+import isIcon from 'svg-country-flags/svg/is.svg'
 import thIcon from 'svg-country-flags/svg/th.svg'
 
 export default {

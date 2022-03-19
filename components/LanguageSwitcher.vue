@@ -56,7 +56,7 @@
 </template>
 
 <script>
-import enIcon from 'svg-country-flags/svg/gb.svg'
+import enIcon from 'svg-country-flags/svg/ro.svg'
 import heIcon from 'svg-country-flags/svg/il.svg'
 import jaIcon from 'svg-country-flags/svg/jp.svg'
 import noIcon from 'svg-country-flags/svg/no.svg'
@@ -74,7 +74,7 @@ import idIcon from 'svg-country-flags/svg/id.svg'
 import ptIcon from 'svg-country-flags/svg/pt.svg'
 import itIcon from 'svg-country-flags/svg/it.svg'
 import plIcon from 'svg-country-flags/svg/pl.svg'
-import isIcon from 'svg-country-flags/svg/is.svg'
+import isIcon from 'svg-country-flags/svg/gb.svg'
 import thIcon from 'svg-country-flags/svg/th.svg'
 
 export default {

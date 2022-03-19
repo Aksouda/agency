@@ -24,6 +24,16 @@
             v-html="$t('frontpage.description.result')"
           />
           <br>
+           <v-btn
+              x-large
+              color="#ecb855"
+              dark
+              class="mt-7"
+              outlined
+              @click="goto('choose')"
+            >
+               {{ $t('frontpage.more_info') }}
+            </v-btn>
         </v-col>
         <v-col
           cols="6"
@@ -42,6 +52,7 @@
     </Wrapper>
     <Wrapper>
       <v-row
+        ref="choose"
         cols="12"
         class="py-10 cancard"
       >
@@ -113,7 +124,7 @@
               <div class="grey--text">
                 <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.info')"
+            v-html="$t('frontpage.description.top_company_more')"
           />
           <br>
           <v-btn
@@ -140,6 +151,13 @@
 import { mapState } from 'vuex'
 
 export default {
+methods: {
+    goto (refName) {
+      const element = this.$refs[refName]
+      const top = element.offsetTop
+      window.scrollTo(0, top)
+    }
+  }
   name: 'Home',
   head () {
     return {

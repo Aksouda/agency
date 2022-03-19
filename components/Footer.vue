@@ -90,7 +90,7 @@ export default {
   max-width: 1300px;
 }
 .footer-heading {
-  font-family: 'Passion One', cursive;
+  font-family: Work sans-serif;
   font-size: 4rem;
   color: #4c4f5a;
   line-height: 3.5rem;

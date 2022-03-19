@@ -12,7 +12,7 @@
         :src="require('@/assets/open-source.png')"
         loading="lazy"
       >
-      <h3 v-html=$t('frontpage.find_dream_job.title_company')" />
+      <h3 v-html="$t('frontpage.find_dream_job.title_company')" />
     </v-col>
     <v-col
       cols="12"

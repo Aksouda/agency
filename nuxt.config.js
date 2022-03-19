@@ -4,7 +4,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s - Big Five',
+    titleTemplate: '%s -',
     title: 'Recruitment Platform',
     meta: [
       { charset: 'utf-8' },

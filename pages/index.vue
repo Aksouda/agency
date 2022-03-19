@@ -26,7 +26,7 @@
           <br>
            <v-btn
               x-large
-              color="#ecb855"
+              color="#455a64"
               dark
               class="mt-7"
               outlined

@@ -78,15 +78,7 @@
             style="color: #797878"
             v-html="$t('frontpage.share_company')"
           />
-          <script
-            data-b24-form="inline/7/6g1fiw"
-            data-skip-moving="true"
-          >
-            (function(w,d,u){
-            var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-            })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_7_6g1fiw.js');
-          </script>
+          <script data-b24-form="inline/12/yn3p6m" data-skip-moving="true"> (function(w,d,u){ var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0); var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h); })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_12_yn3p6m.js'); </script>
         </v-col>
       </v-row>
     </Wrapper>

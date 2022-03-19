@@ -37,8 +37,9 @@ export default {
     },
     description: {
       top_candidate: 'Te ajutăm să găsești cariera potrivită pentru tine',
-      top_candidate_more: 'Ajutăm candidații să descopere cariera pe care ar urma-o cu cea mai mare pasiune',
+      top_candidate_more: 'Succesul vine natural atunci când prioritizezi pasiunile tale',
       top_company: 'Ajutăm companiile să găsească candidații potriviți',
+      top_company_more: 'Descoperă avantajele recrutării bazate pe metode științifice',
       subtop: 'The',
       subtop2: ' is the most scientifically validated and reliable psychological model to measure personality.',
       reference: `Tests and evaluation for this site is gathered from

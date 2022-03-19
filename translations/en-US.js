@@ -12,27 +12,33 @@ export default {
     call_to_action: 'Găsește candidați',
     cta_candidate: 'Consiliere în carieră gratuită',
     more_info: 'Afla mai multe',
+    more_info_company: 'CERE O OFERTĂ',
     welcome_banner: 'Legătura perfectă dintre candidați și companii. Personalizare 100% pentru o potrivire 100%.',
     tests_taken: 'Recruto lucrează cu tine, pentru tine',
+    tests_taken_comp: 'Recruto lucrează cu oameni, pentru oameni',
     find_dream_job: {
       title: 'Îți punem la dispoziție toate resursele necesare pentru a-ți găsi cel mai potrivit job ',
+      title_company: 'Bază de date diversificată ',
       text1: 'Mai mult decât o listă de joburi. Prin consilierea gratuită în carieră evaluăm împreună abilitățile tale, așteptările și dorințele legate de jobul dorit, iar apoi te promovăm companiilor potrivite pentru tine',
+      text1_company: 'Mai mult decât o listă de joburi. Prin consilierea gratuită în carieră evaluăm împreună abilitățile tale, așteptările și dorințele legate de jobul dorit, iar apoi te promovăm companiilor potrivite pentru tine',
       text2: 'Scapă de orice frică. Emoțiile rămân acasă atunci când știi din start că ești în locul potrivit.',
+      text2_company: 'Scapă de orice frică. Emoțiile rămân acasă atunci când știi din start că ești în locul potrivit.',
       action: 'Consiliere în carieră gratuită'
     },
     share: 'Completează formularul de mai jos și fii cu un pas mai aproape de jobul tău visat',
+    share_company: 'Completează formularul de mai jos și spune-ne cum te putem ajuta',
     cards: {
       open: {
-        title: 'Nici o nepotrivire',
+        title: 'Mergi la sigur',
         text: 'Elimină incompatibilitatea la locul de muncă'
       },
       free: {
-        title: 'Gratuită',
+        title: 'Fără costuri ascunse',
         text: 'Consiliere în carieră gratuită'
       },
       scientific: {
         title: 'Recomandare 100% personalizată',
-        text: 'Recomandare 100% personalizată la jobul unde te vei simti cel mai bine'
+        text: 'Scoatem în evidență calitățile tale și îți găsim un job pe măsură'
       }
     },
     description: {
@@ -46,8 +52,10 @@ export default {
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       info: 'Legătura perfectă dintre candidați și companii. Personalizare 100% pentru o potrivire 100%.',
-      result: 'Hai să descoperim împreună cariera pe care ai urma-o cu cea mai mare pasiune. Prin procesul gratuit de consiliere aflăm ce ți se potrivește 100%,apoi te ajutăm să obții acces direct la job-urile compatibile ție.',
-      tests_taken: 'tests taken so far'
+      result: 'Hai să descoperim împreună cariera pe care ai urma-o cu cea mai mare pasiune. Prin procesul gratuit de consiliere aflăm ce ți se potrivește,apoi te ajutăm să obții acces direct la job-urile compatibile ție.',
+      tests_taken: 'tests taken so far',
+      top_company_banner: 'Resursa umană este cel mai important element în garantarea succesului oricărei companii.',
+      info_company: 'Nu lăsăm loc de erori atunci când vine vorba de recrutarea noilor tăi angajați. Folosim metode științifice pentru a-ți recomanda profesioniștii ce vor face față cu brio nevoilor companiei tale.'
     }
   },
   about: {

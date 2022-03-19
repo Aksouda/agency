@@ -16,15 +16,11 @@
           </h1>
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.top_candidate')"
+            v-html="$t('frontpage.description.top_company_banner')"
           />
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.info')"
-          />
-           <p
-            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.result')"
+            v-html="$t('frontpage.description.info_company')"
           />
           <v-btn
             x-large
@@ -34,7 +30,7 @@
             outlined
             @click="goto('form')"
           >
-            {{ $t('frontpage.find_dream_job.action') }}
+            {{ $t('frontpage.more_info_company') }}
           </v-btn>
           <br>
         </v-col>
@@ -64,58 +60,15 @@
         >
           <h1
             class="font-italic"
-            v-html="$t('frontpage.tests_taken')"
+            v-html="$t('frontpage.tests_taken_comp')"
           />
         </v-col>
         <v-col>
-          <Highlights />
+          <Highlightcom />
         </v-col>
       </v-row>
     </Wrapper>
     <Wrapper background="white">
-      <v-row
-        cols="12"
-        :class="{ 'flex-column-reverse': $vuetify.breakpoint.smAndDown }"
-        class="py-10"
-      >
-        <v-col
-          cols="12"
-          xs="12"
-          md="6"
-          class="text-center"
-        >
-          <img
-            class="responsive"
-            alt="Comparing people"
-            :src="require('@/assets/final.svg')"
-            loading="lazy"
-          >
-        </v-col>
-        <v-col
-          cols="12"
-          xs="12"
-          md="6"
-          class="text-md-left text-center"
-        >
-          <h1 v-html="$t('frontpage.find_dream_job.title')" />
-          <br>
-          <br>
-          <p v-html="$t('frontpage.find_dream_job.text1')" />
-          <p v-html="$t('frontpage.find_dream_job.text2')" />
-          <p>
-            <v-btn
-              x-large
-              color="#455a64"
-              dark
-              class="mt-7"
-              outlined
-              @click="goto('form')"
-            >
-              {{ $t('frontpage.find_dream_job.action') }}
-            </v-btn>
-          </p>
-        </v-col>
-      </v-row>
       <v-row ref="form">
         <v-col
           class="text-center"
@@ -123,7 +76,7 @@
         >
           <h2
             style="color: #797878"
-            v-html="$t('frontpage.share')"
+            v-html="$t('frontpage.share_company')"
           />
           <script
             data-b24-form="inline/7/6g1fiw"

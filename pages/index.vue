@@ -130,7 +130,7 @@
           <v-btn
             x-large
             color="#ecb855"
-            :to="localePath('/candidate')"
+            :to="localePath('/company')"
             dark
             class=""
           >
@@ -157,7 +157,7 @@ methods: {
       const top = element.offsetTop
       window.scrollTo(0, top)
     }
-  }
+  },
   name: 'Home',
   head () {
     return {

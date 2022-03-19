@@ -33,7 +33,7 @@
         </v-btn>
         <v-btn
           text
-          :to="localePath('/')"
+          :to="localePath('/company')"
           class="hidden-sm-and-down text-none font-weight-regular"
         >
           {{ $t('frontpage.call_to_action') }}
@@ -72,7 +72,7 @@ export default {
   display: flex;
   flex-direction: row;
   margin: auto;
-  max-width: 960px;
+  max-width: 1300px;
   width: 100%;
   align-items: center;
   height:84px !important

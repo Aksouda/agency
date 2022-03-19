@@ -8,14 +8,14 @@
       >
         <v-row class="footer-wrapper pl-0">
           <v-col class="footer-heading">
-            SPUNE<br>BUNA
+            Hai să ne cunoaștem<br>
           </v-col>
           <v-col
             cols="12"
             class="pt-0"
           >
             <a
-              href="https://www.facebook.com/recruto/"
+              href="https://www.facebook.com/recruto.ro/"
               aria-label="Gå til facebook"
             >
               <v-icon large>{{ mdiFacebook }}</v-icon>
@@ -28,7 +28,7 @@
             />
 
             <a
-              href="https://instagram.com/recruto/"
+              href="https://instagram.com/recruto.ro/"
               aria-label="Gå til github"
             >
               <v-icon large>{{ mdiInstagram }}</v-icon>
@@ -53,8 +53,8 @@
         class="footer-about"
       >
         Recruto<br>
-        Bulevardul Iuliu Maniu 6L, Etajul I București<br>
-        România 061103 București<br><br>
+        Bd. Iuliu Maniu 6L, Sector 6,<br>
+         București, România<br><br>
         info@Recruto.ro<br>
       </v-col>
     </v-row>
@@ -87,7 +87,7 @@ export default {
   padding: 12px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1200px;
+  max-width: 1300px;
 }
 .footer-heading {
   font-family: 'Passion One', cursive;

@@ -1,6 +1,6 @@
 export const vueI18n = {}
 export const vueI18nLoader = false
-export const locales = [{"name":"Română","code":"en","iso":"en-US","file":"en-US.js","dir":"ltr"},{"name":"Icelandic","code":"is","iso":"is","file":"is.js","dir":"ltr"}]
+export const locales = [{"name":"Română","code":"en","iso":"en-US","file":"en-US.js","dir":"ltr"},{"name":"Icelandinc","code":"is","iso":"is","file":"is.js","dir":"ltr"}]
 export const defaultLocale = 'en'
 export const defaultDirection = 'ltr'
 export const routesNameSeparator = '___'

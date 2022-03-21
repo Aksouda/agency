@@ -24,7 +24,7 @@
           />
            <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.result_canditate')"
+            v-html="$t('frontpage.description.result_candidate')"
           />
           <v-btn
             x-large

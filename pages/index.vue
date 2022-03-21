@@ -64,7 +64,7 @@
         >
         <v-card
             flat
-            class="text-xs-center ma-3"
+            class="text-xs-center ma-3 company"
           >
             <v-img
               :src="require('@/assets/jobhun.svg')"
@@ -103,7 +103,7 @@
           cols="12"
           xs="12"
           md="6"
-          class="text-center company"
+          class="text-center"
         >
           <v-card
             flat
@@ -216,10 +216,13 @@ p {
   height:900px;
 }
 .banner{
-  padding-top:90px;
+  padding-top:70px;
 }
 .v-responsive__sizer{
   padding-bottom:50% !important;
+}
+.company{
+  position:absolute;
 }
 .cardimg{
   height:450px;

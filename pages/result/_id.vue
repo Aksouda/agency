@@ -51,11 +51,11 @@
            :value="domain.score">
       </div>
       <script>
-var Extraversion = document.getElementById('Extraversion').value;
-var Neuroticism = document.getElementById('Neuroticism').value;
-var Openness = document.getElementById('Openness To Experience').value;
-var Conscientiousness = document.getElementById('Conscientiousness').value;
-var Agreeableness = document.getElementById('Agreeableness').value;
+var Extraversion = document.getElementById('Extraversie').value;
+var Neuroticism = document.getElementById('Nevrotism').value;
+var Openness = document.getElementById('Deschidere către experiență').value;
+var Conscientiousness = document.getElementById('Conştiinciozitate').value;
+var Agreeableness = document.getElementById('Amabilitatea').value;
 var testid = window.location.href;
 console.log(Openness);
 

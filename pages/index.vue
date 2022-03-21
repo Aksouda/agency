@@ -107,7 +107,7 @@
         >
           <v-card
             flat
-            class="text-xs-center ma-3"
+            class="text-xs-center ma-3 company"
           >
             <v-img
               :src="require('@/assets/looking.svg')"
@@ -216,7 +216,7 @@ p {
   height:900px;
 }
 .banner{
-  padding-top:70px;
+  padding-top:50px;
 }
 .v-responsive__sizer{
   padding-bottom:50% !important;

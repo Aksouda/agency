@@ -8,7 +8,7 @@
       >
         <v-row class="footer-wrapper pl-0">
           <v-col class="footer-heading">
-            Hai să ne cunoaștem<br>
+            {{ $t('frontpage.title_footer') }}<br>
           </v-col>
           <v-col
             cols="12"

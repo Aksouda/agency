@@ -16,7 +16,7 @@
           </h1>
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.top_candidate')"
+            v-html="$t('frontpage.description.top_candidate_banner')"
           />
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
@@ -24,7 +24,7 @@
           />
            <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.result')"
+            v-html="$t('frontpage.description.result_canditate')"
           />
           <v-btn
             x-large

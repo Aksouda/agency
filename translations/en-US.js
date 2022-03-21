@@ -11,6 +11,7 @@ export default {
       description: 'Recruto conectează candidații ideali cu companiile optime'
     },
     title: 'Recruto',
+    title_footer: 'Hai să ne cunoaștem',
     call_to_action: 'Găsește candidați',
     cta_candidate: 'Consiliere în carieră gratuită',
     more_info: 'Afla mai multe',
@@ -45,6 +46,7 @@ export default {
     },
     description: {
       top_candidate: 'Te ajutăm să găsești cariera potrivită pentru tine',
+      top_candidate_banner: 'Te ajutăm să găsești cariera potrivită pentru tine',
       top_candidate_more: 'Succesul vine natural atunci când prioritizezi pasiunile tale',
       top_company: 'Ajutăm companiile să găsească candidații potriviți',
       top_company_more: 'Descoperă avantajele recrutării bazate pe metode științifice',
@@ -55,6 +57,7 @@ export default {
 inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       info: 'Legătura perfectă dintre candidați și companii. Personalizare 100% pentru o potrivire 100%.',
       result: 'Hai să descoperim împreună cariera pe care ai urma-o cu cea mai mare pasiune. Prin procesul gratuit de consiliere aflăm ce ți se potrivește,apoi te ajutăm să obții acces direct la job-urile compatibile ție.',
+      result_candidate: 'Hai să descoperim împreună cariera pe care ai urma-o cu cea mai mare pasiune. Prin procesul gratuit de consiliere aflăm ce ți se potrivește,apoi te ajutăm să obții acces direct la job-urile compatibile ție.',
       tests_taken: 'tests taken so far',
       top_company_banner: 'Resursa umană este cel mai important element în garantarea succesului oricărei companii.',
       info_company: 'Nu lăsăm loc de erori atunci când vine vorba de recrutarea noilor tăi angajați. Folosim metode științifice pentru a-ți recomanda profesioniștii ce vor face față cu brio nevoilor companiei tale.'

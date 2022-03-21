@@ -1,7 +1,7 @@
 export default {
   language: 'Romanian',
   seo: {
-    keywords: 'big five personality test, big 5 personality test, b5 test, bigfive test, personality traits, bigfive, compare, free, jordan peterson'
+    keywords: 'consiliere în carieră, găsiți locuri de muncă, proces ușor de angajare, găsiți candidați, găsiți locuri de muncă'
   },
   frontpage: {
     seo: {

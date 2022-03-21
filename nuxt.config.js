@@ -4,22 +4,22 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s -',
-    title: 'Recruitment Platform',
+    titleTemplate: '%s',
+    title: 'platforma de recrutare',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family.' },
-      { hid: 'keywords', name: 'keywords', content: 'big five personality test, big 5 personality test, b5 test, bigfive test, personality traits, bigfive, compare, free, jordan peterson' },
-      { hid: 'og:title', name: 'og:title', content: 'Free open-source BigFive personality traits test' },
-      { hid: 'og:description', name: 'og:description', content: 'Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family' },
+      { hid: 'description', name: 'description', content: 'Recruto face legătura între candidați și companii, găsiți locuri de muncă care sunt cele mai potrivite pentru dvs' },
+      { hid: 'keywords', name: 'keywords', content: 'găsiți locuri de muncă care vi se potrivesc cel mai bine, candidați pentru compania dvs., recrutați cei mai buni candidați, angajați-vă într-o companie de renume' },
+      { hid: 'og:title', name: 'og:title', content: 'Recruto face legătura între candidați și companii' },
+      { hid: 'og:description', name: 'og:description', content: 'începeți procesul de angajare, aplicați cu ușurință pentru joburile pe care le doriți, găsiți candidații potriviți' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:url', name: 'og:url', content: 'https://recruto.ro' },
       { hid: 'og:image', name: 'og:image', content: 'https://recruto.ro/icon.png' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@maccyber' },
-      { hid: 'twitter:title', name: 'twitter:title', content: 'Free open-source BigFive personality traits test' },
-      { hid: 'twitter:description', name: 'twitter:description', content: 'Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'Recruto oferă consiliere gratuită în carieră' },
+      { hid: 'twitter:description', name: 'twitter:description', content: 'angajați-vă rapid și ușor și asigurați-vă locul de muncă visat' },
       { hid: 'twitter:image', name: 'twitter:image', content: 'https://recruto.ro/icon.png' },
       { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Recruto logo' }
     ],

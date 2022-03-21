@@ -13,12 +13,12 @@
               name="rotate"
             >
               <v-img
-                alt="BigFive logo"
+                alt="Recruto logo"
                 class="shrink mr-2"
                 contain
                 :src="logoSrc"
                 transition="fade-transition"
-                width="80"
+                width="120"
               />
             </transition>
           </nuxt-link>

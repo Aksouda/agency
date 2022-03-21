@@ -20,9 +20,9 @@ export default {
       title: 'Îți punem la dispoziție toate resursele necesare pentru a-ți găsi cel mai potrivit job ',
       title_company: 'Bază de date diversificată ',
       text1: 'Mai mult decât o listă de joburi. Prin consilierea gratuită în carieră evaluăm împreună abilitățile tale, așteptările și dorințele legate de jobul dorit, iar apoi te promovăm companiilor potrivite pentru tine',
-      text1_company: 'Mai mult decât o listă de joburi. Prin consilierea gratuită în carieră evaluăm împreună abilitățile tale, așteptările și dorințele legate de jobul dorit, iar apoi te promovăm companiilor potrivite pentru tine',
+      text1_company: 'Nevoile tale, provocarea noastră',
       text2: 'Scapă de orice frică. Emoțiile rămân acasă atunci când știi din start că ești în locul potrivit.',
-      text2_company: 'Scapă de orice frică. Emoțiile rămân acasă atunci când știi din start că ești în locul potrivit.',
+      text2_company: 'Recomandări 100% personalizate',
       action: 'Consiliere în carieră gratuită'
     },
     share: 'Completează formularul de mai jos și fii cu un pas mai aproape de jobul tău visat',

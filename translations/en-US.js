@@ -6,6 +6,8 @@ export default {
   frontpage: {
     seo: {
       title: 'Recruto',
+      title_can: 'Candidați ',
+      title_comp: 'Angajatori ',
       description: 'Recruto conectează candidații ideali cu companiile optime'
     },
     title: 'Recruto',

@@ -18,7 +18,7 @@ export default {
     more_info_company: 'Find Out More',
     welcome_banner: 'Our mission? To be the perfect link between candidates and companies. We fit our services to your needs in order to find you the best career match.',
     tests_taken: 'Recruiting has never been more effective',
-    tests_taken_comp: 'Recruto lucrează cu oameni, pentru oameni',
+    tests_taken_comp: 'Recruiting has never been more effective',
     find_dream_job: {
       title: 'Get instant access to all the tools you need to find the best job for yourself',
       title_company: ' Diversified database',

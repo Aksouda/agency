@@ -13,6 +13,8 @@ export default {
     title: 'Recruto',
     title_footer: 'Say Hi',
     policy: 'Privacy Policy',
+    terms: 'Terms and Conditions',
+    cookies: 'cookies Policy',
     call_to_action: 'Find candidates',
     cta_candidate: 'Free career counseling',
     more_info: 'LEARN MORE',

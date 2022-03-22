@@ -72,7 +72,7 @@ export default {
   display: flex;
   flex-direction: row;
   margin: auto;
-  max-width: 1300px;
+  max-width: 1260px;
   width: 100%;
   align-items: center;
   height:84px !important

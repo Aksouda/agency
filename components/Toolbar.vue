@@ -31,7 +31,6 @@
         >
           {{ $t('frontpage.contactus') }}
         </v-btn>
-        <v-spacer />
         <v-btn
           text
           class="hidden-sm-and-down text-none font-weight-regular"

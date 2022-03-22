@@ -5,7 +5,7 @@
     În baza dispozițiilor Regulamentului (UE) 679/2016, privind protecţia persoanelor fizice în ceea ce priveşte prelucrarea datelor cu caracter personal şi privind libera circulaţie datelor MONEFY BUSINESS SRL (denumit în continuare Operator), vă informează în legătură cu modul în care datele dumneavoastră personale sunt utilizate și scopul pentru care acestea sunt folosite:
     <ol>
       <li>
-        <h3>CE TIPURI DE DATE COLECTĂM ȘI DE CE?></h3>
+        <h3>CE TIPURI DE DATE COLECTĂM ȘI DE CE?</h3>
         <p>Organizatorul va colecta și prelucra datele Dumneavoastra cu caracter personal dupa cum urmeaza:</p>
         <ul>
         <li>

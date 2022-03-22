@@ -27,6 +27,14 @@
         <v-btn
           text
           class="hidden-sm-and-down text-none font-weight-regular"
+          :to="localePath('/contact')"
+        >
+          {{ $t('frontpage.contactus') }}
+        </v-btn>
+        <v-spacer />
+        <v-btn
+          text
+          class="hidden-sm-and-down text-none font-weight-regular"
           :to="localePath('/candidate')"
         >
           {{ $t('frontpage.cta_candidate') }}

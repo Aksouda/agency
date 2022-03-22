@@ -68,6 +68,10 @@
       href="https://recruto.ro/cookies"
       target="_blank"
     >{{ $t('frontpage.cookies') }}</a><br>
+    <a
+      href="https://recruto.ro/gdpr"
+      target="_blank"
+    >{{ $t('frontpage.gdpr') }}</a><br>
       </v-col>
     </v-row>
   </v-footer>

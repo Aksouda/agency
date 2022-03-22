@@ -50,6 +50,7 @@
         </v-col>
       </v-row>
     </Wrapper>
+       <CookieBox />
     <Wrapper>
       <v-row
         ref="choose"

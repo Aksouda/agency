@@ -12,6 +12,7 @@ export default {
     },
     title: 'Recruto',
     title_footer: 'Say Hi',
+    policy: 'Privacy Policy',
     call_to_action: 'Find candidates',
     cta_candidate: 'Free career counseling',
     more_info: 'LEARN MORE',
@@ -36,7 +37,7 @@ export default {
         text: 'Cut the guesswork out of the process'
       },
       free: {
-        title: 'No hidden costse',
+        title: 'No hidden costs',
         text: 'Our services are 100% free'
       },
       scientific: {
@@ -55,7 +56,7 @@ export default {
       reference: `Tests and evaluation for this site is gathered from
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
-      info: 'Congrats! Your dream career just got one step closer',
+      info: 'Our mission? To be the perfect link between candidates and companies. We fit our services to your needs in order to find you the best career match.',
       result: 'Let’s discover the path that will lead you to success. We offer a free career counseling session that will help us understand what suits you best, then we help you get access to the jobs that match your skills and interests.',
       result_candidate: 'Let’s discover the path that will lead you to success. We offer a free career counseling session that will help us understand what suits you best, then we help you get access to the jobs that match your skills and interests.',
       tests_taken: 'tests taken so far',

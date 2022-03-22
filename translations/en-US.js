@@ -12,6 +12,7 @@ export default {
     },
     title: 'Recruto',
     title_footer: 'Hai să ne cunoaștem',
+    policy: 'Politica de Confidențialitate',
     call_to_action: 'Găsește candidați',
     cta_candidate: 'Consiliere în carieră gratuită',
     more_info: 'Afla mai multe',

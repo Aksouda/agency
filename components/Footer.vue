@@ -75,7 +75,7 @@
       </v-col>
     </v-row>
   </v-footer>
-  <CookieBox />
+  <TheCookieBox />
 </template>
 
 <script>

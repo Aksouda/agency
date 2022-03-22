@@ -74,6 +74,7 @@
     >{{ $t('frontpage.gdpr') }}</a><br>
       </v-col>
     </v-row>
+    <CookieBox />
   </v-footer>
 </template>
 

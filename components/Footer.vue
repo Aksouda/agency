@@ -14,6 +14,7 @@
             cols="12"
             class="pt-0"
           >
+          <CookieBox />
             <a
               href="https://www.facebook.com/recruto.ro/"
               aria-label="Gå til facebook"

@@ -2,7 +2,6 @@
   <CookieConsent
     message="Folosim cookie-uri pentru a-ti oferi o experienta personalizata. Permite activarea acestora pentru a beneficia de avantajele lor."
     link-label="mai multe informatii"
-    link-label="mai multe informatii"
   />
 </template>
 <script>

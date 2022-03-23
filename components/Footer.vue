@@ -73,6 +73,7 @@
       target="_blank"
     >{{ $t('frontpage.gdpr') }}</a><br>
       </v-col>
+      <CookieBox />
     </v-row>
   </v-footer>
 </template>

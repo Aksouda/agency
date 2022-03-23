@@ -48,7 +48,6 @@
             loading="lazy"
           >
         </v-col>
-               <CookieBox />
       </v-row>
     </Wrapper>
     <Wrapper>

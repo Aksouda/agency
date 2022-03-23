@@ -1,15 +1,28 @@
 <template>
-  <CookieConsent
+
+<div v-if="!loading">
+    // the elements that cause the error: DOMException: Failed to execute 'appendChild' on 'Node'
+    <CookieConsent
     message="Folosim cookie-uri pentru a-ti oferi o experienta personalizata. Permite activarea acestora pentru a beneficia de avantajele lor."
     link-label="mai multe informatii"
   />
+  </div>
+  
 </template>
 <script>
   import CookieConsent from '../vue-cookieconsent-component/src/components/CookieConsent.vue'
   export default {
     components: {
       CookieConsent
-    }
+    },
+    data: () => ({
+       loading: true
+     }),
+     created () {
+        this.$nextTick(function () {
+           this.loading = false
+       })
+     }
   }
 </script>
 <style>

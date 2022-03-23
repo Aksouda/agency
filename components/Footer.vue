@@ -1,6 +1,5 @@
 <template>
   <v-footer class="pl-10 pt-10">
-  <CookieBox />
     <v-row class="footer-container">
       <v-col
         sm="6"

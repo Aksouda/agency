@@ -1,4 +1,5 @@
 <template>
+<CookieBox />
   <div>
     <v-app-bar
       app

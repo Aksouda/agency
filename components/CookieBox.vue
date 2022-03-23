@@ -1,7 +1,8 @@
 <template>
   <CookieConsent
-    message="We use Cookies for user analysis and on-page improvements!"
-    link-label="Learn about cookies"
+    message="Folosim cookie-uri pentru a-ti oferi o experienta personalizata. Permite activarea acestora pentru a beneficia de avantajele lor."
+    link-label="mai multe informatii"
+    link-label="mai multe informatii"
   />
 </template>
 <script>
@@ -21,6 +22,10 @@
     justify-content: center;
     border-bottom: 1px solid white;
     color: white;
+    position: fixed;
+    bottom:20px;
+    background:black;
+    border-radius:5px;
   }
   .cookie-consent button {
     border: 1px solid white;

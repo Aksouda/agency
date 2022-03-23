@@ -48,9 +48,9 @@
             loading="lazy"
           >
         </v-col>
+               <CookieBox />
       </v-row>
     </Wrapper>
-       <CookieBox />
     <Wrapper>
       <v-row
         ref="choose"

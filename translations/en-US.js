@@ -53,7 +53,7 @@ export default {
       top_candidate: 'Te ajutăm să găsești cariera potrivită pentru tine',
       top_candidate_banner: 'Te ajutăm să găsești cariera potrivită pentru tine',
       top_candidate_more: 'Succesul vine natural atunci când prioritizezi pasiunile tale',
-      contact: 'Did we make you curious? Would you like to get access to more information? Fill in the contact form below and one of our representatives will get back to you as soon as possible.',
+      contact: 'Ți-am stârnit curiozitatea? Vrei să afli mai multe informații? Completează formularul de mai jos, iar unul din reprezentanții noștri te vor contacta în cel mai scurt timp posibil.',
       top_company: 'Ajutăm companiile să găsească candidații potriviți',
       top_company_more: 'Descoperă avantajele recrutării bazate pe metode științifice',
       subtop: 'The',

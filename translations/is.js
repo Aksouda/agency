@@ -53,7 +53,7 @@ export default {
       top_candidate: 'Find your perfect career match',
       top_candidate_banner: 'Congrats! Your dream career just got one step closer',
       top_candidate_more: 'Success comes natural when you’re in the right place',
-      contact: 'Ți-am stârnit curiozitatea? Vrei să afli mai multe informații? Completează formularul de mai jos, iar unul din reprezentanții noștri te vor contacta în cel mai scurt timp posibil.',
+      contact: 'Did we make you curious? Would you like to get access to more information? Fill in the contact form below and one of our representatives will get back to you as soon as possible.',
       top_company: 'Find the most qualified employees',
       top_company_more: 'Learn more on how our methods can help your company grow',
       subtop: 'The',

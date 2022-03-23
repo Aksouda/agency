@@ -37,7 +37,7 @@
     bottom:20px;
     background:black;
     border-radius:5px;
-    left:0px;
+    left:50px;
   }
   .cookie-consent button {
     border: 1px solid white;

@@ -2,8 +2,8 @@
   <div>
     <h1>Politica de cookie</h1><br>
     
-https://recruto.ro/ foloseşte cookie-uri esențiale pentru a asigura buna funcționare a site-ului precum și cookie-uri de analiză.<br>
-Deoarece acordăm importanță transparenței față de dvs. vă prezentăm câteva informații folositoare despre cookie-urile folosite pe https://recruto.ro/ .<br>
+<a>https://recruto.ro/</a>  foloseşte cookie-uri esențiale pentru a asigura buna funcționare a site-ului precum și cookie-uri de analiză.<br>
+Deoarece acordăm importanță transparenței față de dvs. vă prezentăm câteva informații folositoare despre cookie-urile folosite pe <a>https://recruto.ro/</a>.<br>
     <h2>Ce este un cookie?</h2>
     Incercam sa facem experienta dvs. cat mai simpla si mai utila atunci cand interactionati cu site-ul nostru. Cookie-urile pot fi setate de website-ul pe care il vizitati ("first party cookies") sau pot fi setate de alte website-uri care afișează informații pe pagina pe care o vizitati ("third party cookies").
     <br>
@@ -17,7 +17,7 @@ Deoarece acordăm importanță transparenței față de dvs. vă prezentăm cât
     Cookie-urile esențiale ajută la crearea unui site web, permițând funcții de bază cum ar fi navigarea pe pagini și accesul în zonele securizate ale website-ului. Website-ul nu poate funcționa corect  fără aceste cookie-uri. De asemenea, ne ajută să respectăm cerințele legale, cum ar fi GDPR.<br><br>
 
     <h2>Cookie-uri statistice</h2><br>
-    Website-ul https://recruto.ro/ utilizează Google Analytics, un serviciu pentru analiza web, furnizat de Google. Google Analytics utilizează fișiere de tip cookie pentru a ajuta un anumit Website să analizeze modul în care utilizați respectivul Website. Informațiile generate de fișierele de tip cookie cu privire la utilizarea de către dvs. a Website-ului (inclusiv adresa dvs. IP)  vor fi transmise și stocate de Google pe servere care pot fi localizate în UE, SEE şi/sau Statele Unite. Google va utiliza aceste informații în scopul evaluării utilizării de către dvs. a Website-ului, elaborând rapoarte cu privire la activitatea Website-ului pentru operatorii Website-ului și furnizând alte servicii referitoare la activitatea Website-ului și la utilizarea internetului. Aceste fișiere ne permit să monitorizăm vizitele și sursele de trafic, astfel încât să putem măsura și îmbunătăți performanța website-ului nostru. Acestea ne ajută să cunoaștem cele mai populare sau mai puțin populare pagini și să vedem cum se deplasează vizitatorii în cadrul website-ului. Dacă nu permiteți plasarea/accesarea acestor fișiere, nu vom ști când ați vizitat website-ul nostru și nu vom putea să-i monitorizăm performanța.<br><br>
+    Website-ul <a>https://recruto.ro/</a> utilizează Google Analytics, un serviciu pentru analiza web, furnizat de Google. Google Analytics utilizează fișiere de tip cookie pentru a ajuta un anumit Website să analizeze modul în care utilizați respectivul Website. Informațiile generate de fișierele de tip cookie cu privire la utilizarea de către dvs. a Website-ului (inclusiv adresa dvs. IP)  vor fi transmise și stocate de Google pe servere care pot fi localizate în UE, SEE şi/sau Statele Unite. Google va utiliza aceste informații în scopul evaluării utilizării de către dvs. a Website-ului, elaborând rapoarte cu privire la activitatea Website-ului pentru operatorii Website-ului și furnizând alte servicii referitoare la activitatea Website-ului și la utilizarea internetului. Aceste fișiere ne permit să monitorizăm vizitele și sursele de trafic, astfel încât să putem măsura și îmbunătăți performanța website-ului nostru. Acestea ne ajută să cunoaștem cele mai populare sau mai puțin populare pagini și să vedem cum se deplasează vizitatorii în cadrul website-ului. Dacă nu permiteți plasarea/accesarea acestor fișiere, nu vom ști când ați vizitat website-ul nostru și nu vom putea să-i monitorizăm performanța.<br><br>
 
     <h2>Cookie-uri de marketing</h2><br>
     Aceste fișiere sunt adăugate pe website-ul nostru de către partenerii noștri furnizori de publicitate. Acestea pot fi utilizate de aceste companii pentru a vă crea un profil al intereselor dvs. și pentru a vă afișa anunțuri publicitare adaptate intereselor și comportamentului dumneavoastră, inclusiv pe alte website-uri. Acestea funcționează prin identificarea unică a browser-ului și a dispozitivului dumneavoastră. Dacă nu permiteți plasarea/accesarea acestor fișiere, vi se va afișa publicitate neadaptată la profilul dumneavoastră. Selectarea opțiunii generale Activ (DA) pentru acest scop implică inclusiv acordul dvs. pentru plasare/accesare de informații, prin Tehnologii de tip Cookie, cu excepția situației în care optați cu Inactiv (NU).<br><br>
@@ -27,7 +27,7 @@ Deoarece acordăm importanță transparenței față de dvs. vă prezentăm cât
 
     <h2>Cum pot gestiona cookie-urile?</h2><br>
     Cookie-urile esențiale sunt obligatorii pentru funcționarea site-ului. Pentru cookie-urile de analiză (Google Analytics), preferințe și marketing puteți alege din bara de cookie daca le bifati sau nu.<br>
-    Puteți găsi informații despre controlarea cookie-urilor aici: www.aboutcookies.org.<br>
+    Puteți găsi informații despre controlarea cookie-urilor aici:<a>www.aboutcookies.org</a><br>
     
     <h2>Cum pot fi oprite cookie-urile?</h2><br>
     Dezactivarea și refuzul de a primi cookie-uri pot face această pagină de internet dificil de vizitat, atrăgând după sine limitări ale posibilităților de utilizare ale acesteia.<br>
@@ -55,18 +55,19 @@ Deoarece acordăm importanță transparenței față de dvs. vă prezentăm cât
     </ul>
     <br>
 
-https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies <br>
-https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences<br>
-https://support.google.com/chrome/answer/95647<br>
-https://support.apple.com/kb/index?q=delete+cookies&src=globalnav_support&type=organic&page=search&locale=en_US<br>
+<a>https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies</a><br>
+<a>https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences</a><br>
+<a>https://support.google.com/chrome/answer/95647</a><br>
+<a>https://support.apple.com/kb/index?q=delete+cookies&src=globalnav_support&type=organic&page=search&locale=en_US</a><br>
 
    
     <br><br>
 
     <h2>Sfaturi pentru o navigare sigură și responsabilă, bazată pe module cookie</h2><br>
     Datorită flexibilității lor și a faptului că majoritatea dintre cele mai vizitate website-uri și cele mai mari folosesc module cookie, acestea sunt aproape inevitabile. Dezactivarea modulelor cookie nu va permite accesul utilizatorului pe website-urile cele mai răspândite și utilizate printre care Youtube, Gmail, Facebook și altele.
-    <br>
+    <br><br>
     Iată câteva sfaturi care vă pot asigura că navigați fără griji însă cu ajutorul modulelor cookie:
+    <br>
     <br>
     <ul>
       <li>
@@ -88,7 +89,7 @@ https://support.apple.com/kb/index?q=delete+cookies&src=globalnav_support&type=o
     <br>
     <br>
    Modulele cookie sunt pretutindeni și nu pot fi evitate dacă doriți să vă bucurați de acces pe cele mai bune și cele mai mari website-uri de pe Internet – locale sau internaționale. Cu o înțelegere clară a modului lor de operare și a beneficiilor pe care le aduc, puteți lua măsurile necesare de securitate astel încât să puteți naviga cu încredere pe internet.
-    <br><br>>
+    <br><br>
     Dezactivarea și refuzul de a primi module cookie pot face anumite website-uri impracticabile sau dificil de vizitat și folosit. De asemenea, refuzul de a accepta module cookie nu înseamnă că nu veți mai primi/vedea publicitate online.<br>
 
     <br>
@@ -96,8 +97,9 @@ https://support.apple.com/kb/index?q=delete+cookies&src=globalnav_support&type=o
 Este posibilă setarea din browser pentru ca aceste module cookie să nu mai fie acceptate sau poți seta browserul să accepte module cookie de la un website anume. Dar, de exemplu, dacă nu ești înregistat folosind module cookie, nu vei putea lăsa comentarii.
     <br>
    Toate browserele moderne oferă posibilitatea de a schimba setările modulelor cookie. Aceste setări se găsesc de regulă în „opțiuni” sau în meniul de „preferințe” al browserului dumneavoastră.
-    <br>
+    <br><br>
     Prezenta politică de cookie a fost actualizată la data de 23.03.2022.
+    <br><br>
   </div>
 </template>
 

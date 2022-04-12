@@ -198,3 +198,8 @@ header{
   display: none;
 }
 </style>
+<style scoped>
+  .v-btn__content{
+  display: none;
+}
+</style>

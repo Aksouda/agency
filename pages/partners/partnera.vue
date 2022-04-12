@@ -194,4 +194,7 @@ p {
 .container{
   max-width:unset !important;
 }
+header{
+  display: none;
+}
 </style>

@@ -194,12 +194,12 @@ p {
 .container{
   max-width:unset !important;
 }
-header{
+a.hidden-sm-and-down{
   display: none;
 }
 </style>
 <style scoped>
-.v-btn__content{
+a.hidden-sm-and-down{
   display: none;
 }
 </style>

@@ -200,6 +200,6 @@ a.hidden-sm-and-down{
 </style>
 <style scoped>
 a.hidden-sm-and-down{
-  display: none;
+  display: none !important;
 }
 </style>

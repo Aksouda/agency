@@ -195,7 +195,7 @@ p {
   max-width:unset !important;
 }
 a.hidden-sm-and-down{
-  display: none important;
+  display: none !important;
 }
 </style>
 <style scoped>

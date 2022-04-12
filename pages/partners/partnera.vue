@@ -199,7 +199,7 @@ header{
 }
 </style>
 <style scoped>
-  .v-btn__content{
+.v-btn__content{
   display: none;
 }
 </style>

@@ -76,7 +76,7 @@ export default {
 }
 
 </script>
-<style>
+<style scoped>
 .app-bar-shadow {
   box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.1) !important;
   height:84px !important

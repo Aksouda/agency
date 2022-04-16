@@ -37,7 +37,7 @@ export default {
       action_hdpi: 'îNCEPE ACUM'
     },
     share: 'Completează formularul de mai jos și fii cu un pas mai aproape de jobul tău visat',
-    share_hdpi: 'Completează formularul de mai jos și fii cu un pas mai aproape de jobul tău visat',
+    share_hdpi: 'Completează formularul de mai jos și fii cu un pas mai aproape de jobul tău visat!',
     share_company: 'Completează formularul de mai jos și spune-ne cum te putem ajuta',
     cards: {
       open: {

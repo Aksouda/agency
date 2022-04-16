@@ -48,36 +48,6 @@
           >
         </v-col>
       </v-row>
-          <v-row
-        cols="12"
-        class="py-10"
-      >
-        <v-col
-          cols="12"
-          xs="12"
-          md="6"
-          class="text-md-left text-center"
-        >
-           <p
-            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.result_candidate_hdpi')"
-          />
-          <br>
-        </v-col>
-        <v-col
-          cols="6"
-          xs="12"
-          md="6"
-          class="text-center"
-        >
-          <img
-            class="responsive"
-            alt="Comparingpeople"
-            :src="require('@/assets/bannercan.svg')"
-            loading="lazy"
-          >
-        </v-col>
-      </v-row>
     </Wrapper>
     <Wrapper background="white">
       <v-row

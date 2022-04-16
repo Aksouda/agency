@@ -134,7 +134,11 @@ export default {
         { hid: 'twitter:description', name: 'twitter:description', content: this.$t('frontpage.seo.description') }
       ]
     }
-  }
+  },
+  async asyncData({ params }) {
+      const partner = params.partner // When calling /abc the slug will be "abc"
+      return { partner }
+    },
 }
 </script>
 <style>

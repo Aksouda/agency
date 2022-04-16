@@ -14,6 +14,7 @@
           <h1>
             {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
           </h1>
+          <br>
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
             v-html="$t('frontpage.description.info_hdpi')"
@@ -24,9 +25,9 @@
           />
           <v-btn
             x-large
-            color="#455a64"
+            color="#34268b"
             dark
-            class="mt-7"
+            class="mt-7 text-center"
             outlined
             @click="goto('form')"
           >

@@ -18,6 +18,12 @@
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
             v-html="$t('frontpage.description.info_hdpi')"
+          />  <p
+            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
+            v-html="$t('frontpage.description.hdpi')"
+          />  <p
+            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
+            v-html="$t('frontpage.description.info_hdpi1')"
           />
            <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"

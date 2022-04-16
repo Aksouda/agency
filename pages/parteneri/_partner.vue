@@ -17,11 +17,8 @@
           <br>
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.info_hdpi')"
+            v-html="$t('frontpage.description.info_hdpi') {{ partner }}"
           />
-          <p class="responsive-text">
-            {{ partner }}
-          </p>
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
             v-html="$t('frontpage.description.info_hdpi1')"

@@ -18,11 +18,7 @@
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
             v-html="$t('frontpage.description.info_hdpi')"
-          />
-          <p
-            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="{{ partner }}"
-          />  
+          /> 
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
             v-html="$t('frontpage.description.info_hdpi1')"
@@ -116,10 +112,6 @@ console.log(partner);
 </template>
 <script>
 export default {
-  async asyncData({ params }) {
-      const partner = params.partner // When calling /abc the slug will be "abc"
-      return { partner }
-    },
   methods: {
     goto (refName) {
       const element = this.$refs[refName]

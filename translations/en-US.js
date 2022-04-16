@@ -26,10 +26,10 @@ export default {
     tests_taken_comp: 'Recruto lucrează cu oameni, pentru oameni',
     find_dream_job: {
       title: 'Îți punem la dispoziție toate resursele necesare pentru a-ți găsi cel mai potrivit job ',
-      title_hdpi: 'După ce îți analizăm rezultatele, te vom contacta pentru a programa interviul tău cu unul din specialiștii noștri în recrutare ',
+      title_hdpi: 'După ce îți analizăm rezultatele, te vom contacta pentru a programa interviul tău cu unul din specialiștii noștri în recrutare. ',
       title_company: 'Bază de date diversificată ',
       text1: 'Mai mult decât o listă de joburi. Prin consilierea gratuită în carieră evaluăm împreună abilitățile tale, așteptările și dorințele legate de jobul dorit, iar apoi te promovăm companiilor potrivite pentru tine',
-      text1_hdpi: 'Te vom ajuta să înțelegi calitățile tale, îți vom asculta dorințele si vom stabili pașii următori',
+      text1_hdpi: 'Te vom ajuta să înțelegi calitățile tale, îți vom asculta dorințele si vom stabili pașii următori.',
       text1_company: 'Nevoile tale, provocarea noastră',
       text2: 'Scapă de orice frică. Emoțiile rămân acasă atunci când știi din start că ești în locul potrivit.',
       text2_company: 'Recomandări 100% personalizate',

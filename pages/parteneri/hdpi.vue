@@ -63,7 +63,7 @@
           class="text-center"
         >
           <img
-            class="responsive"
+            class="responsive1"
             alt="Comparing people"
             :src="require('@/assets/collab.svg')"
             loading="lazy"
@@ -75,7 +75,7 @@
           md="6"
           class="text-md-left text-center"
         >
-          <h1 v-html="$t('frontpage.find_dream_job.title_hdpi')" />
+          <p v-html="$t('frontpage.find_dream_job.title_hdpi')" />
           <br>
           <br>
           <p v-html="$t('frontpage.find_dream_job.text1_hdpi')" />
@@ -148,6 +148,10 @@ p {
 .responsive {
   max-width: 100%;
   height: auto;
+}
+.responsive1 {
+  max-width: 100%;
+  height: 450px !important;
 }
 
 .black--link a {

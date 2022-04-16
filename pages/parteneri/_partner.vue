@@ -44,7 +44,7 @@
           <img
             class="responsive"
             alt="Comparingpeople"
-            :src="require('@/assets/ethicalestate.png')"
+            :src="require('@/assets/'+partner+'.png')"
             loading="lazy"
           >
         </v-col>

@@ -162,3 +162,8 @@ p {
 }
 
 </style>
+<style scoped>
+a.hidden-sm-and-down{
+  display: none !important;
+}
+</style>

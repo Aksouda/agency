@@ -161,7 +161,14 @@ p {
 .container{
   max-width:unset !important;
 }
-
+a.hidden-sm-and-down{
+  display: none !important;
+}
+button.mt-7.text-center.v-btn.v-btn--outlined.theme--dark.v-size--x-large {
+    height: 70px !important;
+    min-width: 202px !important;
+    right: -157px !important;
+}
 </style>
 <style scoped>
 a.hidden-sm-and-down{

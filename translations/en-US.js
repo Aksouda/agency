@@ -26,14 +26,18 @@ export default {
     tests_taken_comp: 'Recruto lucrează cu oameni, pentru oameni',
     find_dream_job: {
       title: 'Îți punem la dispoziție toate resursele necesare pentru a-ți găsi cel mai potrivit job ',
+      title_hdpi: 'După ce îți analizăm rezultatele, te vom contacta pentru a programa interviul tău cu unul din specialiștii noștri în recrutare ',
       title_company: 'Bază de date diversificată ',
       text1: 'Mai mult decât o listă de joburi. Prin consilierea gratuită în carieră evaluăm împreună abilitățile tale, așteptările și dorințele legate de jobul dorit, iar apoi te promovăm companiilor potrivite pentru tine',
+      text1_hdpi: 'Te vom ajuta să înțelegi calitățile tale, îți vom asculta dorințele si vom stabili pașii următori',
       text1_company: 'Nevoile tale, provocarea noastră',
       text2: 'Scapă de orice frică. Emoțiile rămân acasă atunci când știi din start că ești în locul potrivit.',
       text2_company: 'Recomandări 100% personalizate',
-      action: 'Consiliere în carieră gratuită'
+      action: 'Consiliere în carieră gratuită',
+      action_hdpi: 'îNCEPE ACUM'
     },
     share: 'Completează formularul de mai jos și fii cu un pas mai aproape de jobul tău visat',
+    share_hdpi: 'Completează formularul de mai jos și fii cu un pas mai aproape de jobul tău visat',
     share_company: 'Completează formularul de mai jos și spune-ne cum te putem ajuta',
     cards: {
       open: {
@@ -52,6 +56,7 @@ export default {
     description: {
       top_candidate: 'Te ajutăm să găsești cariera potrivită pentru tine',
       top_candidate_banner: 'Te ajutăm să găsești cariera potrivită pentru tine',
+      top_candidate_banner_hdpi: 'Felicitări pentru primul pas luat. Ești mai aproape de jobul potrivit ca niciodată!',
       top_candidate_more: 'Succesul vine natural atunci când prioritizezi pasiunile tale',
       contact: 'Ți-am stârnit curiozitatea? Vrei să afli mai multe informații? Completează formularul de mai jos, iar unul din reprezentanții noștri te vor contacta în cel mai scurt timp posibil.',
       top_company: 'Ajutăm companiile să găsească candidații potriviți',
@@ -62,8 +67,10 @@ export default {
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       info: 'Legătura perfectă dintre candidați și companii. Personalizare 100% pentru o potrivire 100%.',
+      info_hdpi: 'Recruto și Human Performance Development Intl (HPDI) lucrează împreună ca să îți oferim cea mai bună experiență de angajare.',
       result: 'Hai să descoperim împreună cariera pe care ai urma-o cu cea mai mare pasiune. Prin procesul gratuit de consiliere aflăm ce ți se potrivește,apoi te ajutăm să obții acces direct la job-urile compatibile ție.',
       result_candidate: 'Hai să descoperim împreună cariera pe care ai urma-o cu cea mai mare pasiune. Prin procesul gratuit de consiliere aflăm ce ți se potrivește,apoi te ajutăm să obții acces direct la job-urile compatibile ție.',
+      result_candidate_hdpi: 'Îți punem la dispoziție toate resursele necesare pentru a scoate în evidență calitățile care te ajută să excelezi în cariera ta.',
       tests_taken: 'tests taken so far',
       top_company_banner: 'Resursa umană este cel mai important element în garantarea succesului oricărei companii.',
       info_company: 'Nu lăsăm loc de erori atunci când vine vorba de recrutarea noilor tăi angajați. Folosim metode științifice pentru a-ți recomanda profesioniștii ce vor face față cu brio nevoilor companiei tale.'

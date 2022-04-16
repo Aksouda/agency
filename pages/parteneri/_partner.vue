@@ -15,10 +15,8 @@
             {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
           </h1>
           <br>
-          <p
-            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.info_hdpi') partner"
-          />
+          <p>{{ $t('frontpage.description.info_hdpi') }}<span v-html="partner"></span>
+          <p/>
           <p
             :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
             v-html="$t('frontpage.description.info_hdpi1')"

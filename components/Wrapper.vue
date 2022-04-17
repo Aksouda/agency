@@ -28,10 +28,6 @@ export default {
 </script>
 
 <style scoped>
-.wrapper {
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
-}
 .container{
   max-width:1300px !important;
 }

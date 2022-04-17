@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Wrapper>
+    <Wrapper background="#00ffff00">
       <v-row
         cols="12"
         class="py-10"
@@ -166,6 +166,9 @@ button.mt-7.text-center.v-btn.v-btn--outlined.theme--dark.v-size--x-large {
     height: 70px !important;
     min-width: 202px !important;
     right: -157px !important;
+}
+.container.container.pt-12 {
+    background: #bdbfcc !important;
 }
 </style>
 <style scoped>

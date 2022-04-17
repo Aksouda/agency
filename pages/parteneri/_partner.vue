@@ -15,7 +15,7 @@
             {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
           </h1>
           <br>
-          <p>{{ $t('frontpage.description.info_hdpi') }}<span v-html="partner"></span><span>{{ $t('frontpage.description.info_hdpi1') }}</span>
+          <p>{{ $t('frontpage.description.info_hdpi') }}<span v-html="partner"></span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
           <p/>
           <v-btn
             x-large

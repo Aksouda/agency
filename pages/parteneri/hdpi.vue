@@ -15,20 +15,8 @@
             {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
           </h1>
           <br>
-          <p
-            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.info_hdpi')"
-          />  <p
-            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.hdpi')"
-          />  <p
-            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.info_hdpi1')"
-          />
-           <p
-            :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }"
-            v-html="$t('frontpage.description.result_candidate_hdpi')"
-          />
+           <p>{{ $t('frontpage.description.info_hdpi') }}<span>{{ $t('frontpage.description.hdpi') }}</span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
+          <p/>
           <v-btn
             x-large
             color="#34268b"

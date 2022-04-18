@@ -28,10 +28,12 @@ export default {
       title: 'Get instant access to all the tools you need to find the best job for yourself',
       title_company: ' Diversified database',
       text1: 'We offer more than just a list of available jobs. Using scientifically proven methods we assess your abilities and skills, as well as your desires and ambitions and we use this knowledge to match you with the best career available.',
+      text1_hdpi: 'We will help you understand your qualities, we will listen to your wishes and we will establish the next steps.',
       text1_company: 'Your needs, our priority',
       text2: 'Leave anxiety behind. Job hunting has never been easier.',
       text2_company: 'Candidates suited to your company’s ambitions',
-      action: 'SCHEDULE YOUR FREE CAREER COUNSELING SESSION'
+      action: 'SCHEDULE YOUR FREE CAREER COUNSELING SESSION',
+      action_hdpi: 'Get started now'
     },
     share: 'Fill in your contact details to schedule your own consultation',
     share_company: 'Fill in your contact details to see how we can help you',
@@ -62,8 +64,11 @@ export default {
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       info: 'Our mission? To be the perfect link between candidates and companies. We fit our services to your needs in order to find you the best career match.',
+      info_hdpi: 'Recruit and ',
+      info_hdpi1: ' work together to give you the best employment experience.',
       result: 'Let’s discover the path that will lead you to success. We offer a free career counseling session that will help us understand what suits you best, then we help you get access to the jobs that match your skills and interests.',
       result_candidate: 'Let’s discover the path that will lead you to success. We offer a free career counseling session that will help us understand what suits you best, then we help you get access to the jobs that match your skills and interests.',
+      result_candidate_hdpi: 'We provide you with all the necessary resources to highlight the qualities that help you excel in your career.',
       tests_taken: 'tests taken so far',
       top_company_banner: 'Human resources are the most valuable aspect of any successful enterprise.',
       info_company: 'That’s why we leave no room for errors when it comes to finding you the perfect employees. We use scientifically proven methods to identify those candidates that can excel through any challenge your company might face.'

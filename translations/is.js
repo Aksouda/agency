@@ -26,6 +26,7 @@ export default {
     tests_taken_comp: 'Recruiting has never been more effective',
     find_dream_job: {
       title: 'Get instant access to all the tools you need to find the best job for yourself',
+      title_hdpi: 'After we analyze your results, we will contact you to schedule your interview with one of our recruitment specialists. ',
       title_company: ' Diversified database',
       text1: 'We offer more than just a list of available jobs. Using scientifically proven methods we assess your abilities and skills, as well as your desires and ambitions and we use this knowledge to match you with the best career available.',
       text1_hdpi: 'We will help you understand your qualities, we will listen to your wishes and we will establish the next steps.',

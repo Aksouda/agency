@@ -12,7 +12,7 @@
           class="text-md-left text-center"
         >
           <h1>
-            {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
+            {{ $t('frontpage.description.result_candidate_hdpi') }}
           </h1>
           <br>
           <p>{{ $t('frontpage.description.info_hdpi') }}<span class="upper" v-html="partner"></span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>

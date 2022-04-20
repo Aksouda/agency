@@ -177,7 +177,7 @@ a.hidden-sm-and-down{
     background: #bdbfcc !important;
 }
 .upper{
-  text-transform: uppercase
+  text-transform: capitalize
 }
 </style>
 <style scoped>

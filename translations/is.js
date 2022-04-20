@@ -37,6 +37,7 @@ export default {
       action_hdpi: 'Get started now'
     },
     share: 'Fill in your contact details to schedule your own consultation',
+    share_hdpi: 'Fill in the form below and be one step closer to your dream job!',
     share_company: 'Fill in your contact details to see how we can help you',
     cards: {
       open: {

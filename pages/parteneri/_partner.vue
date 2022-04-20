@@ -15,7 +15,7 @@
             {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
           </h1>
           <br>
-          <p>{{ $t('frontpage.description.info_hdpi') }}<span v-html="partner"></span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
+          <p>{{ $t('frontpage.description.info_hdpi') }}<span class="upper" v-html="partner"></span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
           <p/>
           <v-btn
             x-large
@@ -175,6 +175,9 @@ a.hidden-sm-and-down{
 }
 .container.container.pt-12 {
     background: #bdbfcc !important;
+}
+.upper{
+  text-transform: uppercase
 }
 </style>
 <style scoped>

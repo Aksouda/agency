@@ -109,6 +109,6 @@ export default {
   flex-direction:column !important;
 }
 .companii{
-  display: none !important;
+  opacity:0;
 }
 </style>

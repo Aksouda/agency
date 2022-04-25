@@ -108,4 +108,7 @@ export default {
 .d-flex{
   flex-direction:column !important;
 }
+.companii{
+  display:none;
+}
 </style>

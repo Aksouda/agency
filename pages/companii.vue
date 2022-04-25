@@ -31,7 +31,7 @@
         </v-col>
       </v-row>
     </Wrapper>
-    <Wrapper background="url(` + require(`@/assets/devide.jpg`) + `)">
+    <Wrapper background-image="url(` + require(`@/assets/devide.jpg`) + `)">
       <v-row
         cols="12"
         class="py-10 bannermid"

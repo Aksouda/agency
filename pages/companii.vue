@@ -182,7 +182,7 @@ a.hidden-sm-and-down{
    left:0;
 }
 .companii{
-    display:block;
+    display:block !important;
     background-color: #39b3ed;
     border-radius: 30px;
     padding: 1px;

@@ -9,7 +9,7 @@
           cols="12"
           xs="12"
           md="6"
-          class="text-md-left text-center middle"
+          class="text-md-left text-center middle wider"
         >
           <h1>
             {{ $t('frontpage.description.top_candidate_banner_hdpi') }}

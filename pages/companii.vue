@@ -40,7 +40,7 @@
           cols="12"
           xs="12"
           md="6"
-          class="text-md-left text-center middle"
+          class="text-md-left text-center middle wider"
         >
            <p>{{ $t('frontpage.description.info_hdpi') }}<span>{{ $t('frontpage.description.hdpi') }}</span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
           <p/>

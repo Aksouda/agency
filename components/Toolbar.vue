@@ -55,7 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </v-btn>
         <LanguageSwitcher />
       </div>
-      <div class="line" style="background-color: #1d68a5;width: 100%;height: 8px;position: absolute;top: 80px;"></div>
+      <div class="line"></div>
     </v-app-bar>
   </div>
 </template>
@@ -107,15 +107,5 @@ export default {
 }
 .d-flex{
   flex-direction:column !important;
-}
-.companii{
-  
-    background-color: #39b3ed;
-    border-radius: 30px;
-    padding: 1px;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 1px;
-    width:135px;
 }
 </style>

@@ -3,13 +3,13 @@
     <Wrapper>
       <v-row
         cols="12"
-        class="py-10"
+        class="py-10 bannermid"
       >
         <v-col
           cols="12"
           xs="12"
           md="6"
-          class="text-md-left text-center"
+          class="text-md-left text-center middle"
         >
           <h1>
             {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
@@ -29,26 +29,42 @@
           </v-btn>
           <br>
         </v-col>
+      </v-row>
+    </Wrapper>
+    <Wrapper background="url(~@/assets/devide.jpg)">
+      <v-row
+        cols="12"
+        class="py-10 bannermid"
+      >
         <v-col
-          cols="6"
+          cols="12"
           xs="12"
           md="6"
-          class="text-center"
+          class="text-md-left text-center middle"
         >
-          <img
-            class="responsive"
-            alt="Comparingpeople"
-            :src="require('@/assets/hdpi.png')"
-            loading="lazy"
-          >
+           <p>{{ $t('frontpage.description.info_hdpi') }}<span>{{ $t('frontpage.description.hdpi') }}</span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
+          <p/>
         </v-col>
       </v-row>
     </Wrapper>
     <Wrapper background="white">
+     <v-col
+          cols="12"
+          xs="12"
+          md="6"
+          class="text-md-left text-center middle wider"
+        >
+          <h1>
+            {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
+          </h1>
+          <br>
+           <p>{{ $t('frontpage.description.info_hdpi') }}<span>{{ $t('frontpage.description.hdpi') }}</span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
+          <p/>
+        </v-col>
       <v-row
         cols="12"
         :class="{ 'flex-column-reverse': $vuetify.breakpoint.smAndDown }"
-        class="py-10"
+        class="py-10 content"
       >
         <v-col
           cols="12"
@@ -168,9 +184,12 @@ a.hidden-sm-and-down{
 }
 @media (min-width: 960px){
   button.mt-7.text-center.v-btn.v-btn--outlined.theme--dark.v-size--x-large {
-    height: 70px !important;
+    height: 46px !important;
     min-width: 202px !important;
     right: -157px !important;
+}
+.v-application .text-md-left{
+  text-align: center !important;
 }
 }
 .line{
@@ -190,6 +209,18 @@ a.hidden-sm-and-down{
     text-align: center;
     margin-top: 1px;
     width:135px;
+}
+.bannermid{
+  display:block !important;
+}
+.middle{
+  margin:auto !important;
+}
+.wider{
+  max-width:80% !important;
+}
+.content{
+  padding-top: 3px!important;
 }
 </style>
 <style scoped>

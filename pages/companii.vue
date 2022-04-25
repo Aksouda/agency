@@ -31,7 +31,7 @@
         </v-col>
       </v-row>
     </Wrapper>
-    <Wrapper background="url(~@/assets/devide.jpg)">
+    <Wrapper background="url(` + require(`@/assets/devide.jpg`) + `)">
       <v-row
         cols="12"
         class="py-10 bannermid"
@@ -186,7 +186,6 @@ a.hidden-sm-and-down{
   button.mt-7.text-center.v-btn.v-btn--outlined.theme--dark.v-size--x-large {
     height: 46px !important;
     min-width: 202px !important;
-    right: -157px !important;
 }
 .v-application .text-md-left{
   text-align: center !important;

@@ -29,6 +29,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               />
             </transition>
           </nuxt-link>
+          <div class="companii">Pentru companii</div>
         </div>
         <v-spacer />
         <v-btn
@@ -54,6 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </v-btn>
         <LanguageSwitcher />
       </div>
+      <div class="line" style="background-color: #1d68a5;width: 100%;height: 8px;position: absolute;top: 80px;"></div>
     </v-app-bar>
   </div>
 </template>
@@ -102,5 +104,18 @@ export default {
 
 .v-menu__content {
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02) !important;
+}
+.d-flex{
+  flex-direction:column !important;
+}
+.companii{
+  
+    background-color: #39b3ed;
+    border-radius: 30px;
+    padding: 1px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 1px;
+    width:135px;
 }
 </style>

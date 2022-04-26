@@ -283,9 +283,9 @@ a.hidden-sm-and-down{
   line-height: 2.9;
 }
 .devider{
-  background-size:cover;
-  background-position:center;
-  background-blend-mode: screen;
+  background-size:cover !important;
+  background-position:center !important;
+  background-blend-mode: screen !important;
 }
 </style>
 <style scoped>

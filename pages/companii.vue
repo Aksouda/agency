@@ -54,12 +54,46 @@
           md="6"
           class="text-md-left text-center middle wider"
         >
-          <h1>
-            {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
-          </h1>
-          <br>
-           <p>{{ $t('frontpage.description.info_hdpi') }}<span>{{ $t('frontpage.description.hdpi') }}</span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
-          <p/>
+         <ul style="list-style: none;">
+    
+        <li class="feat">
+         <img
+            class="tick"
+            alt="tick"
+            :src="require('@/assets/tick.png')"
+            loading="lazy"
+          >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+        <li class="feat">
+         <img
+            class="tick"
+            alt="tick"
+            :src="require('@/assets/tick.png')"
+            loading="lazy"
+          >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+        <li class="feat">
+         <img
+            class="tick"
+            alt="tick"
+            :src="require('@/assets/tick.png')"
+            loading="lazy"
+          >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+        <li class="feat">
+         <img
+            class="tick"
+            alt="tick"
+            :src="require('@/assets/tick.png')"
+            loading="lazy"
+          >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+
+        </ul>
         </v-col>
       <v-row
         cols="12"
@@ -223,6 +257,14 @@ a.hidden-sm-and-down{
 }
 .content{
   padding-top: 3px!important;
+}
+.feat{
+  display:flex;
+}
+.tick{
+  width:40px;
+  height:50px;
+  margin-right:20px;
 }
 </style>
 <style scoped>

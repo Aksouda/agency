@@ -120,7 +120,7 @@
         </v-col>
       </v-row>
       </Wrapper>
-      <Wrapper :style="{backgroundImage: `url(` + require(`~/assets/devide.jpg`) + `)`;background-size:cover;background-position:center;background-blend-mode: screen;}">
+      <Wrapper :style="{backgroundImage: `url(` + require(`~/assets/devide.jpg`) + `)`}">
       <v-row
         cols="12"
         class="py-10 bannermid"

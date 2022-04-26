@@ -283,7 +283,7 @@ a.hidden-sm-and-down{
   line-height: 2.9;
 }
 .devider{
-  background-image: url("~/assets/devide.jpg");
+  background-image: url("~assets/devide.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: screen;

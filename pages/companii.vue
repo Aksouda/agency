@@ -46,7 +46,6 @@
         Într-o lume plină de opțiuni candidații se gândesc de două ori înainte să aplice la o companie. Aceștia pun foarte mare accent pe partea de potrivire. Dacă nu se regăsesc în cultura companiei și poziția pe care o au atunci se creeaza un flux mare de personal și drept urmare rata de retenție scăzută.
         </p>
         <br>
-        <br>
         <p>
         Recruto testează fiecare candidat în parte, pentru a-i înțelege caracteristicile personale și aptitudinile profesionale. Astfel putem să ne asigurăm că îți recomandăm doar candidați relevanți, care s-ar simți ca acasă în noua lor poziție în compania ta.</p>
         </v-col>
@@ -76,7 +75,7 @@
         >
          <ul style="list-style: none;">
     <li>
-       <h1>
+       <h1 style="margin-bottom:42px;">
         Beneficiile testului Recruto
         </h1>
         </li>
@@ -87,7 +86,7 @@
             :src="require('@/assets/tick.png')"
             loading="lazy"
           >
-        <p>Cunoaștem caracteristicile candidatului înainte de interviu</p>
+        <p class="points">Cunoaștem caracteristicile candidatului înainte de interviu</p>
         </li>
         <li class="feat">
          <img
@@ -96,7 +95,7 @@
             :src="require('@/assets/tick.png')"
             loading="lazy"
           >
-        <p>Îți recomandăm doar candidați 100% potriviți și relevanți</p>
+        <p class="points">Îți recomandăm doar candidați 100% potriviți și relevanți</p>
         </li>
         <li class="feat">
          <img
@@ -105,7 +104,7 @@
             :src="require('@/assets/tick.png')"
             loading="lazy"
           >
-        <p>Creștem rata de retenție, scădem fluxul de personal</p>
+        <p class="points">Creștem rata de retenție, scădem fluxul de personal</p>
         </li>
         <li class="feat">
          <img
@@ -114,14 +113,14 @@
             :src="require('@/assets/tick.png')"
             loading="lazy"
           >
-        <p>Astfel îți reducem și costurile de recrutare</p>
+        <p class="points">Astfel îți reducem și costurile de recrutare</p>
         </li>
 
         </ul>
         </v-col>
       </v-row>
       </Wrapper>
-      <Wrapper :style="{backgroundImage: `url(` + require(`~/assets/devide.jpg`) + `)`}">
+      <Wrapper class="devider" :style="{backgroundImage: `url(` + require(`~/assets/devide.jpg`) + `)`}">
       <v-row
         cols="12"
         class="py-10 bannermid"
@@ -277,6 +276,16 @@ a.hidden-sm-and-down{
   width:40px;
   height:50px;
   margin-right:20px;
+  object-fit: none;
+}
+.points{
+  font-size:1.2rem !important
+  line-height: 2.9;
+}
+.devider{
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
 }
 </style>
 <style scoped>

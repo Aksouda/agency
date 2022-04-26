@@ -47,6 +47,82 @@
         </v-col>
       </v-row>
     </Wrapper>
+     <Wrapper">
+     <v-col
+          cols="12"
+          xs="12"
+          md="6"
+          class="text-md-left text-center middle wider"
+        >
+ <p v-html="$t('frontpage.find_dream_job.text1_hdpi')" />
+        </v-col>
+      <v-row
+        cols="12"
+        :class="{ 'flex-column-reverse': $vuetify.breakpoint.smAndDown }"
+        class="py-10 content"
+      >
+        <v-col
+          cols="12"
+          xs="12"
+          md="6"
+          class="text-md-left text-center"
+        >
+         <ul style="list-style: none;">
+    
+        <li class="feat">
+         <img
+            class="tick"
+            alt="tick"
+            :src="require('@/assets/tick.png')"
+            loading="lazy"
+          >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+        <li class="feat">
+         <img
+            class="tick"
+            alt="tick"
+            :src="require('@/assets/tick.png')"
+            loading="lazy"
+          >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+        <li class="feat">
+         <img
+            class="tick"
+            alt="tick"
+            :src="require('@/assets/tick.png')"
+            loading="lazy"
+          >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+        <li class="feat">
+         <img
+            class="tick"
+            alt="tick"
+            :src="require('@/assets/tick.png')"
+            loading="lazy"
+          >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+
+        </ul>
+        </v-col>
+         <v-col
+          cols="12"
+          xs="12"
+          md="6"
+          class="text-center"
+        >
+          <img
+            class="responsive1"
+            alt="Comparing people"
+            :src="require('@/assets/collab.svg')"
+            loading="lazy"
+          >
+        </v-col>
+      </v-row>
+    </Wrapper>
     <Wrapper background="white">
      <v-col
           cols="12"

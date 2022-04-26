@@ -38,7 +38,7 @@
           <img
             class="responsive"
             alt="Comparingpeople"
-            :src="require('@/assets/hdpi.png')"
+            :src="require('@/assets/hpdi.png')"
             loading="lazy"
           >
         </v-col>

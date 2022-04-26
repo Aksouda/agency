@@ -120,7 +120,7 @@
         </v-col>
       </v-row>
       </Wrapper>
-      <Wrapper  :style="{backgroundImage: `url(` + require(`~/assets/devide.jpg`) + `)`}">
+      <Wrapper :style="{backgroundImage: `url(` + require(`~/assets/devide.jpg`) + `)`;background-size:cover;background-position:center;background-blend-mode: screen;}">
       <v-row
         cols="12"
         class="py-10 bannermid"
@@ -279,7 +279,7 @@ a.hidden-sm-and-down{
   object-fit: none;
 }
 .points{
-  font-size:1.2rem !important
+  font-size:1.2rem !important;
   line-height: 2.9;
 }
 </style>

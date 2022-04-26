@@ -179,6 +179,9 @@ p {
 .container{
   max-width:unset !important;
 }
+.container.container.pt-12 {
+    padding: 0 !important;
+}
 a.hidden-sm-and-down{
   display: none !important;
 }

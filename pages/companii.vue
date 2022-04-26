@@ -106,6 +106,7 @@
         </ul>
         </v-col>
       </v-row>
+      </Wrapper>
       <Wrapper :style="{backgroundImage: `url(` + require(`~/assets/devide.jpg`) + `)`}">
       <v-row
         cols="12"
@@ -122,11 +123,14 @@
         </v-col>
       </v-row>
     </Wrapper>
+    <Wrapper>
       <v-row ref="form">
         <v-col
           class="text-center"
           cols="12"
         >
+        <br>
+        <br>
           <h2
             style="color: #797878"
             v-html="$t('frontpage.share_hdpi')"

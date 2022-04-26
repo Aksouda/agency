@@ -12,10 +12,10 @@
           class="text-md-left text-center middle wider"
         >
           <h1>
-            {{ $t('frontpage.description.top_candidate_banner_hdpi') }}
+            Găsește angajații cei mai potriviți și buni pentru compania ta
           </h1>
           <br>
-           <p>{{ $t('frontpage.description.info_hdpi') }}<span>{{ $t('frontpage.description.hdpi') }}</span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
+           <p>Compania ta merită doar ce-i mai bun. Recruto te ajută să găsești doar angajați potriviți ca să ai o echipă performantă și de încredere.
           <p/>
           <v-btn
             x-large
@@ -38,7 +38,17 @@
           md="6"
           class="text-md-left text-center middle wider"
         >
-        
+        <h1>
+        Metoda Recruto
+        </h1>
+        <br>
+        <p>
+        Într-o lume plină de opțiuni candidații se gândesc de două ori înainte să aplice la o companie. Aceștia pun foarte mare accent pe partea de potrivire. Dacă nu se regăsesc în cultura companiei și poziția pe care o au atunci se creeaza un flux mare de personal și drept urmare rata de retenție scăzută.
+        </p>
+        <br>
+        <br>
+        <p>
+        Recruto testează fiecare candidat în parte, pentru a-i înțelege caracteristicile personale și aptitudinile profesionale. Astfel putem să ne asigurăm că îți recomandăm doar candidați relevanți, care s-ar simți ca acasă în noua lor poziție în compania ta.</p>
         </v-col>
       <v-row
         cols="12"
@@ -54,7 +64,7 @@
           <img
             class="responsive1"
             alt="Comparing people"
-            :src="require('@/assets/collab.svg')"
+            :src="require('@/assets/idea.jpg')"
             loading="lazy"
           >
         </v-col>
@@ -65,15 +75,10 @@
           class="text-md-left text-center"
         >
          <ul style="list-style: none;">
-    
-        <li class="feat">
-         <img
-            class="tick"
-            alt="tick"
-            :src="require('@/assets/tick.png')"
-            loading="lazy"
-          >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <li>
+       <h1>
+        Beneficiile testului Recruto
+        </h1>
         </li>
         <li class="feat">
          <img
@@ -82,7 +87,7 @@
             :src="require('@/assets/tick.png')"
             loading="lazy"
           >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Cunoaștem caracteristicile candidatului înainte de interviu</p>
         </li>
         <li class="feat">
          <img
@@ -91,7 +96,7 @@
             :src="require('@/assets/tick.png')"
             loading="lazy"
           >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Îți recomandăm doar candidați 100% potriviți și relevanți</p>
         </li>
         <li class="feat">
          <img
@@ -100,7 +105,16 @@
             :src="require('@/assets/tick.png')"
             loading="lazy"
           >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Creștem rata de retenție, scădem fluxul de personal</p>
+        </li>
+        <li class="feat">
+         <img
+            class="tick"
+            alt="tick"
+            :src="require('@/assets/tick.png')"
+            loading="lazy"
+          >
+        <p>Astfel îți reducem și costurile de recrutare</p>
         </li>
 
         </ul>
@@ -118,7 +132,7 @@
           md="6"
           class="text-md-left text-center middle wider"
         >
-           <p>{{ $t('frontpage.description.info_hdpi') }}<span>{{ $t('frontpage.description.hdpi') }}</span><span>{{ $t('frontpage.description.info_hdpi1') }}</span><span>{{ $t('frontpage.description.result_candidate_hdpi') }}</span>
+           <p>Misiunea noastră este să ajutăm companiile să găsească doar angajați potriviți și relevanți. Ca să ne asigurăm că există o potrivire 100%, nu percepem niciun comision până când candidatul recomandat nu împlinește 3 luni în compania ta.
           <p/>
         </v-col>
       </v-row>
@@ -131,10 +145,9 @@
         >
         <br>
         <br>
-          <h2
-            style="color: #797878"
-            v-html="$t('frontpage.share_hdpi')"
-          />
+        <h2 style="color: #797878">
+        Cu Recruto ai doar de câștigat, nimic de pierdut. Completeaza formularul de mai jos și beneficiază de o metodă de recrutare modernă, bazat pe testul Recruto, fără bătaie de cap:
+        </h2>
           <script>
 
 var partner = window.location.pathname.split('/').pop();

@@ -120,7 +120,9 @@
         </v-col>
       </v-row>
       </Wrapper>
-      <Wrapper>
+      <Wrapper  :style="{backgroundImage: `url(` + require(`~/assets/devide.jpg`) + `)`;background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;}">
       <v-row
         cols="12"
         class="py-10 bannermid"
@@ -174,7 +176,7 @@ export default {
       window.scrollTo(0, top)
     }
   },
-  name: 'Candidați ',
+  name: 'Companii ',
   head () {
     return {
       title: this.$t('frontpage.seo.title_can'),
@@ -281,12 +283,6 @@ a.hidden-sm-and-down{
 .points{
   font-size:1.2rem !important
   line-height: 2.9;
-}
-.devider{
-  background-image: url("~assets/devide.jpg");
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: screen;
 }
 </style>
 <style scoped>

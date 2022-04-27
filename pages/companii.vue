@@ -19,7 +19,7 @@
           <p/>
           <v-btn
             x-large
-            color="#34268b"
+            color="#1d68a5"
             dark
             class="mt-7 text-center"
             outlined
@@ -147,18 +147,11 @@
         <h2 style="color: #797878">
         Cu Recruto ai doar de câștigat, nimic de pierdut. Completeaza formularul de mai jos și beneficiază de o metodă de recrutare modernă, bazat pe testul Recruto, fără bătaie de cap:
         </h2>
-          <script>
-
-var partner = window.location.pathname.split('/').pop();
-console.log(partner);
-
-</script>
-        <script> window.addEventListener('b24:form:init', function (event)  { let form = event.detail.object; if (form.identification.id == 18) { form.setProperty('partner', partner);}}); </script>
-<script data-b24-form="inline/18/jbtjqj" data-skip-moving="true">
+         <script data-b24-form="inline/19/g1dm7u" data-skip-moving="true">
         (function(w,d,u){
                 var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-        })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_18_jbtjqj.js');
+        })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_19_g1dm7u.js');
 </script>
         </v-col>
       </v-row>

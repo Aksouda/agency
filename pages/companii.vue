@@ -269,7 +269,7 @@ a.hidden-sm-and-down{
   width:40px;
   height:50px;
   margin-right:20px;
-  object-fit: none;
+  object-fit: contain;
 }
 .points{
   font-size:1.2rem !important;

@@ -147,6 +147,8 @@
         <h2 style="color: #797878">
         Cu Recruto ai doar de câștigat, nimic de pierdut. Completeaza formularul de mai jos și beneficiază de o metodă de recrutare modernă, bazat pe testul Recruto, fără bătaie de cap:
         </h2>
+        <br>
+        <br>
          <script data-b24-form="inline/19/g1dm7u" data-skip-moving="true">
         (function(w,d,u){
                 var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);

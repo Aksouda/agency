@@ -43,7 +43,7 @@
         </h1>
         <br>
         <p>
-        Într-o lume plină de opțiuni candidații se gândesc de două ori înainte să aplice la o companie. Aceștia pun foarte mare accent pe partea de potrivire. Dacă nu se regăsesc în cultura companiei și poziția pe care o au atunci se creeaza un flux mare de personal și drept urmare rata de retenție scăzută.
+        Într-o lume plină de opțiuni candidații se gândesc de două ori înainte să aplice la o companie. Aceștia pun foarte mare accent pe partea de potrivire. Dacă nu se regăsesc în cultura companiei și poziția pe care o au atunci se creează un flux mare de personal și drept urmare rata de retenție scăzută.
         </p>
         <br>
         <p>

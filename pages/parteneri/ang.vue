@@ -19,7 +19,7 @@
           <p/>
           <v-btn
             x-large
-            color="#34268b"
+            color="#b38250"
             dark
             class="mt-7 text-center"
             outlined

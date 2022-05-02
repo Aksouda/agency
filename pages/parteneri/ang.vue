@@ -59,7 +59,7 @@
           <img
             class="responsive1"
             alt="Comparing people"
-            :src="require('@/assets/collab.svg')"
+            :src="require('@/assets/collabang.png')"
             loading="lazy"
           >
         </v-col>
@@ -165,6 +165,9 @@ p {
 }
 a.hidden-sm-and-down{
   display: none !important;
+}
+.b24-form-btn{
+  background-color: #b38250 !important
 }
 @media (min-width: 960px){
   button.mt-7.text-center.v-btn.v-btn--outlined.theme--dark.v-size--x-large {

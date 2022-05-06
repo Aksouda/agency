@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Wrapper :style="{'height':'83vh';max-width: 1900px !important;}">
+    <Wrapper :style="{'height':'83vh';'max-width': '1900px !important';}">
       <v-row
         cols="12"
         class="py-10"

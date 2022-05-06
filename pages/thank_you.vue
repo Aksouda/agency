@@ -105,7 +105,7 @@ p {
   text-decoration: underline;
 }
 .container {
-    max-width: unset !important;
+    max-width: 1900px !important;
 }
 /* .company:hover{
  background-position:center;

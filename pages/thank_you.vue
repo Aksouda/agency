@@ -25,7 +25,7 @@
               dark
               class="mt-7"
               outlined
-             :to="localePath('/thank_you')"
+             :to="localePath('/test')"
             >
                Fă testul acum
             </v-btn>
@@ -105,17 +105,11 @@ p {
   text-decoration: underline;
 }
 
-.default-width {
-  max-width: 960px;
-}
 /* .company:hover{
  background-position:center;
   transition:all 1s;
   background-color:#ccbdbd;
 } */
-.col-12{
-  height:900px;
-}
 .banner{
   padding-top:50px;
 }

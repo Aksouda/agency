@@ -104,7 +104,9 @@ p {
   color: unset;
   text-decoration: underline;
 }
-
+.container {
+    max-width: unset !important;
+}
 /* .company:hover{
  background-position:center;
   transition:all 1s;

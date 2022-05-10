@@ -115,6 +115,9 @@ p {
 .container {
     max-width: 1900px !important;
 }
+.v-application .pt-12 {
+    padding-top: 0px !important;
+}
 /* .company:hover{
  background-position:center;
   transition:all 1s;

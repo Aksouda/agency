@@ -18,11 +18,11 @@
          <p>
         
 
-Am primit informațiile tale. <br>
+Am primit informațiile tale. <br><br>
 
-Pe emailul tău ai primit testul Recruto. <br>
+Pe emailul tău ai primit testul Recruto. <br><br>
 
-Avem o rugăminte importantă - Completează testul atunci când ești într-un mediu neutru și calm. Testul va dura între 20-30 de minute. <br>
+Avem o rugăminte importantă - Completează testul atunci când ești într-un mediu neutru și calm. Testul va dura între 20-30 de minute. <br><br>
 
 După completarea testului vei primi pe email linkul să programezi ședința ta gratuită de consiliere in carieră.
          </p>

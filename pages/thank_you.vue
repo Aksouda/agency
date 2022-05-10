@@ -120,9 +120,7 @@ p {
   transition:all 1s;
   background-color:#ccbdbd;
 } */
-.banner{
-  padding-top:50px;
-}
+
 .v-responsive__sizer{
   padding-bottom:50% !important;
 }

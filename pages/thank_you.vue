@@ -118,6 +118,9 @@ p {
 .v-application .pt-12 {
     padding-top: 0px !important;
 }
+.v-application .py-10{
+  padding-top: 0px!important;
+}
 /* .company:hover{
  background-position:center;
   transition:all 1s;

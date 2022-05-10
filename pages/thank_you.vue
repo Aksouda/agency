@@ -16,7 +16,15 @@
           </h1>
           <br>
          <p>
-         Vă mulțumim pentru trimiterea formularului, vă vom trimite un e-mail cu linkul pentru testul de evaluare a carierei, vă rugăm să asigurați-vă că susțineți testul într-un mediu neutru și calm, testul va dura aproximativ 20-30 de minute
+        Ești cu un pas mai aproape de jobul tău dorit
+
+Am primit informațiile tale.
+
+Pe emailul tău ai primit testul Recruto.
+
+Avem o rugăminte importantă - Completează testul atunci când ești într-un mediu neutru și calm. Testul va dura între 20-30 de minute.
+
+După completarea testului vei primi pe email linkul să programezi ședința ta gratuită de consiliere in carieră.
          </p>
           <br>
            <v-btn
@@ -27,7 +35,7 @@
               outlined
              :to="localePath('/test')"
             >
-               Fă testul acum
+               Completează Testul Acum
             </v-btn>
         </v-col>
         <v-col

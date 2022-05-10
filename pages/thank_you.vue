@@ -12,17 +12,17 @@
           class="text-md-left text-center banner"
         >
           <h1>
-           mulțumesc !
+            Ești cu un pas mai aproape de jobul tău dorit!
           </h1>
           <br>
          <p>
-        Ești cu un pas mai aproape de jobul tău dorit
+        
 
-Am primit informațiile tale.
+Am primit informațiile tale. <br>
 
-Pe emailul tău ai primit testul Recruto.
+Pe emailul tău ai primit testul Recruto. <br>
 
-Avem o rugăminte importantă - Completează testul atunci când ești într-un mediu neutru și calm. Testul va dura între 20-30 de minute.
+Avem o rugăminte importantă - Completează testul atunci când ești într-un mediu neutru și calm. Testul va dura între 20-30 de minute. <br>
 
 După completarea testului vei primi pe email linkul să programezi ședința ta gratuită de consiliere in carieră.
          </p>

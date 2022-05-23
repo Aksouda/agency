@@ -217,7 +217,7 @@ export default {
           }
         ],
         seo: true,
-        baseUrl: 'https://recruto.ro',
+        baseUrl: 'https://test.recruto.ro',
         defaultLocale: 'en',
         strategy: 'prefix_except_default',
         lazy: true,
@@ -253,7 +253,7 @@ export default {
   axios: {
   },
   sitemap: {
-    hostname: 'https://recruto.ro'
+    hostname: 'https://test.recruto.ro'
   },
   webfontloader: {
     google: {
@@ -290,10 +290,10 @@ export default {
     }
   },
   env: {
-    API_URL: 'https://recruto.ro/api/',
+    API_URL: 'https://test.recruto.ro/api/',
     MONGODB_URI: 'mongodb+srv://hamid:hamid12345@cluster0.maldw.mongodb.net/big5?retryWrites=true&w=majority',
     MONGODB_COLLECTION: 'results',
-    BASE_URL: 'https://recruto.ro' // TODO: Fix for dev environment
+    BASE_URL: 'https://test.recruto.ro' // TODO: Fix for dev environment
   },
   build: {
     extractCSS: true,

@@ -37,6 +37,7 @@ După completarea testului vei primi pe email linkul să programezi ședința ta
             >
                Completează Testul Acum
             </v-btn>
+            <br>
         </v-col>
         <v-col
           cols="6"

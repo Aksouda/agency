@@ -18,9 +18,9 @@
          <p>
         
 
-Am primit informațiile tale. <br><br>
+Am primit informațiile tale. <br>
 
-Pe emailul tău ai primit testul Recruto. <br><br>
+Pe emailul tău ai primit testul Recruto. <br>
 
 Avem o rugăminte importantă - Completează testul atunci când ești într-un mediu neutru și calm. Testul va dura între 20-30 de minute. <br><br>
 
@@ -114,6 +114,7 @@ p {
 }
 .container {
     max-width: 1900px !important;
+    min-height: 101vh !important;
 }
 .v-application .pt-12 {
     padding-top: 0px !important;

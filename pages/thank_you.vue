@@ -26,7 +26,6 @@ Avem o rugăminte importantă - Completează testul atunci când ești într-un 
 
 După completarea testului vei primi pe email linkul să programezi ședința ta gratuită de consiliere in carieră.
          </p>
-          <br>
            <v-btn
               x-large
               color="#455a64"

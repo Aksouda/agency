@@ -51,11 +51,22 @@
            :value="domain.score">
       </div>
       <script>
-var Extraversion = document.getElementById('Extraversie').value || document.getElementById('Extraversion').value;
-var Neuroticism = document.getElementById('Nevrotism').value || document.getElementById('Neuroticism').value;
-var Openness = document.getElementById('Deschidere către experiență').value || document.getElementById('Openness To Experience').value;
-var Conscientiousness = document.getElementById('Conştiinciozitate').value || document.getElementById('Conscientiousness').value;
-var Agreeableness = document.getElementById('Amabilitatea').value || document.getElementById('Agreeableness').value;
+      if(document.getElementById('Extraversie') == null){
+        var Extraversion = document.getElementById('Extraversion').value;
+        var Neuroticism = document.getElementById('Neuroticism').value
+        var Openness = document.getElementById('Openness To Experience').value
+        var Conscientiousness = document.getElementById('Conscientiousness').value;
+        var Agreeableness = document.getElementById('Agreeableness').value;
+      }
+      else{
+        var Extraversion = document.getElementById('Extraversie').value;
+        var Neuroticism = document.getElementById('Nevrotism').value;
+        var Openness = document.getElementById('Deschidere către experiență').value;
+        var Conscientiousness = document.getElementById('Conştiinciozitate').value;
+        var Agreeableness = document.getElementById('Amabilitatea').value;
+      }
+     
+
 var testid = window.location.href;
 console.log(Openness);
 

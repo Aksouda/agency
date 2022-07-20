@@ -122,8 +122,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     privacy: 'privacy',
     nextButton: 'Okey, next question',
     declineButton: 'continue without sharing',
-    prefferedLanguage: 'Limba mea preferată este',
-    selectLanguage: 'Selectați o limbă',
+    prefferedLanguage: 'My Preferred Language is',
+    selectLanguage: 'Select A Language',
     iama: 'I am a',
     male: 'Male',
     female: 'Female',
@@ -138,10 +138,10 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     toTestButton: 'Alrighty, take me to the test'
   },
   test: {
-    next: 'Următorul',
-    back: 'înapoi',
-    more: 'Mai mult',
-    seeResults: 'vezi rezultate'
+    next: 'Next',
+    back: 'Back',
+    more: 'More',
+    seeResults: 'Show Results'
   },
   big_five: {
     title: 'What are the big five?',

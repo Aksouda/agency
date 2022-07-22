@@ -2,7 +2,7 @@
 
 <div v-if="!loading">
     <CookieConsent
-    message="Folosim cookie-uri pentru a-ti oferi o experienta personalizata. Permite activarea acestora pentru a beneficia de avantajele lor."
+    message="{{ $t('frontpage.address1') }}"
     link-label="mai multe informatii"
   />
   </div>

@@ -53,8 +53,9 @@
         class="footer-about"
       >
         Recruto<br>
-        Bd. Iuliu Maniu 6L, Sector 6,<br>
-         București, România<br>
+        {{ $t('frontpage.address1') }}<br>
+         {{ $t('frontpage.address2') }}<br>
+         {{ $t('frontpage.address3') }}<br>
         info@Recruto.ro<br><br>
         <a
       href="https://recruto.ro/privacy"

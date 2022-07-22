@@ -2,7 +2,7 @@
 
 <div v-if="!loading">
     <CookieConsent
-    message="{{ $t('frontpage.address1') }}"
+    message="$t('frontpage.address1')"
     link-label="mai multe informatii"
   />
   </div>

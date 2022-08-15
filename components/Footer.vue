@@ -53,7 +53,7 @@
         class="footer-about"
       >
         Recruto<br>
-        {{ $t('frontpage.address1') }}<br>
+        
          {{ $t('frontpage.address2') }}<br>
          {{ $t('frontpage.address3') }}<br>
         info@Recruto.ro<br><br>

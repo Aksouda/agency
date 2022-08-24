@@ -69,6 +69,8 @@
 
 var testid = window.location.href;
 console.log(Openness);
+var dealId=<?php echo $_SESSION['dealId']; ?>;
+console.log(dealId;
 
 </script>
       
@@ -81,6 +83,7 @@ form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neurot
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
 </script>
+
 
 <div class="display-1 mt-6">
         {{ $t('results.theBigFive') }}

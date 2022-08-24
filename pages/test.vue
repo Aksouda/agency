@@ -147,3 +147,4 @@ export default {
   }
 }
 </script>
+<?php $_SESSION['dealId'] = $_POST['dealId'];?>

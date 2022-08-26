@@ -84,7 +84,8 @@ form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neurot
 
 const dealId1 = localStorage.getItem('dealId');
 console.log(dealId1);
-let bitrixapi = 'https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id='+dealId1+'&fields[UF_CRM_1647528341000]='+Extraversion+'&fields[UF_CRM_1647528370287]='+Openness+'&fields[UF_CRM_1647528380638]='+Conscientiousness+'&fields[UF_CRM_1647528390894]='+Agreeableness+'&fields[UF_CRM_1647528403430]='+Neuroticism+'&fields[UF_CRM_1647528425110]='+testid+'&fields[STAGE_ID]=C3:FINAL_INVOICE';
+if (typeof dealId1 !== 'undefined') {
+   let bitrixapi = 'https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id='+dealId1+'&fields[UF_CRM_1647528341000]='+Extraversion+'&fields[UF_CRM_1647528370287]='+Openness+'&fields[UF_CRM_1647528380638]='+Conscientiousness+'&fields[UF_CRM_1647528390894]='+Agreeableness+'&fields[UF_CRM_1647528403430]='+Neuroticism+'&fields[UF_CRM_1647528425110]='+testid+'&fields[STAGE_ID]=C3:FINAL_INVOICE';
 fetch(bitrixapi, {
   method: 'POST'
 })
@@ -95,6 +96,8 @@ fetch(bitrixapi, {
   .catch((error) => {
     console.error('Error:', error);
   });
+}
+
 
 </script>
       

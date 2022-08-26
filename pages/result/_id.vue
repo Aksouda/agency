@@ -84,7 +84,7 @@ fetch(bitrixapi, {
   .catch((error) => {
     console.error('Error:', error);
   });
-}
+};
 
 
 <script>window.addEventListener('b24:form:init', function (event)  { let form = event.detail.object; if (form.identification.id == 9) { form.setProperty('consciousness', Conscientiousness);

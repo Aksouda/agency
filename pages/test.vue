@@ -100,13 +100,13 @@
       </v-row>
     </div>
   </v-container>
-</template>
-<script>
+  <script>
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const dealId = urlParams.get('dealId');
 console.log(dealId);
 </script>
+</template>
 <script>
 import { mdiRadioboxMarked, mdiRadioboxBlank } from '@mdi/js'
 import { mapMutations, mapState, mapGetters, mapActions } from 'vuex'

@@ -101,7 +101,12 @@
     </div>
   </v-container>
 </template>
-
+<script>
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const dealId = urlParams.get('dealId');
+console.log(dealId);
+</script>
 <script>
 import { mdiRadioboxMarked, mdiRadioboxBlank } from '@mdi/js'
 import { mapMutations, mapState, mapGetters, mapActions } from 'vuex'
@@ -146,11 +151,4 @@ export default {
     }
   }
 }
-</script>
-
-<script>
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const dealId = urlParams.get('dealId')
-console.log(dealId);
 </script>

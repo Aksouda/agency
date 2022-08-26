@@ -86,7 +86,7 @@ fetch(bitrixapi, {
   });
 };
 
-
+</script>
 <script>window.addEventListener('b24:form:init', function (event)  { let form = event.detail.object; if (form.identification.id == 9) { form.setProperty('consciousness', Conscientiousness);
 form.setProperty('extraversion', Extraversion);
 form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neuroticism);   form.setProperty('Agreeableness', Agreeableness); form.setProperty('testid', testid);    }}); </script>   
@@ -99,7 +99,7 @@ form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neurot
 
 
 
-</script>
+
       
 
 

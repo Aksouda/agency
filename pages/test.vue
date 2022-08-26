@@ -147,7 +147,10 @@ export default {
   }
 }
 </script>
-<?php $_SESSION['dealId'] = $_POST['dealId'];?>
+
 <script>
-console.log(<?php echo $_POST['dealId'];?>);
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const dealId = urlParams.get('dealId')
+console.log(dealId);
 </script>

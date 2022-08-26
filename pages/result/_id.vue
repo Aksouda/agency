@@ -69,8 +69,8 @@
 
 var testid = window.location.href;
 console.log(Openness);
-const dealId = localStorage.getItem('dealId');
-console.log(dealId);
+const dealId1 = localStorage.getItem('dealId');
+console.log(dealId1);
 
 </script>
       

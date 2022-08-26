@@ -99,13 +99,13 @@
         </div>
       </v-row>
     </div>
-  </v-container>
-  <script>
+<script>
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const dealId = urlParams.get('dealId');
 console.log(dealId);
 </script>
+  </v-container>
 </template>
 <script>
 import { mdiRadioboxMarked, mdiRadioboxBlank } from '@mdi/js'

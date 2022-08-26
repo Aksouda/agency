@@ -69,7 +69,7 @@
 
 var testid = window.location.href;
 console.log(Openness);
-var dealId=<?php echo $_SESSION['dealId']; ?>;
+const dealId = localStorage.getItem('dealId');
 console.log(dealId);
 
 </script>

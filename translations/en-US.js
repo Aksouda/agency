@@ -204,18 +204,18 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   results: {
     theBigFive: 'The Big Five',
-    score: 'Scor',
+    score: 'Score',
     important: 'Important!',
-    saveResults: 'Vă rugăm să trimiteți formularul de mai jos pentru a vă rezerva sesiunea gratuită puteți salva ID-ul pentru ',
-    compare: 'a compara ',
-    toOthers: 'cu alții',
+    saveResults: 'Please submit the form below to book your free session, you can save your ID to ',
+    compare: 'Compare ',
+    toOthers: 'your results to others',
     seo: {
-      title: 'Rezultatele mele de la testul de personalitate BigFive',
-      description: 'Vedeți-mi personalitatea și comparați-vă în următoarele cinci domenii: nevrotism, deschidere către experiență, conștiință, extraversie, agreabilitate'
+      title: 'My results from the Big Five personality test',
+      description: 'See my personality and compare yourself on the following five domains: Neuroticism, Openness to Experience, Conscientiousness, Extraversion, Agreeableness'
     }
   },
   getResult: {
-    result: 'Rezultat',
+    result: 'Results',
     explanation: 'Dacă ați susținut testul și ați salvat ID-ul, puteți vedea rezultatele aici tastând, de exemplu, dacă ați primit ',
     idInput: 'în câmpul de introducere a ID-ului',
     urlOrId: 'URL-ul sau ID-ul rezultatului dvs',

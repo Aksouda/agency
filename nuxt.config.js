@@ -125,7 +125,7 @@ export default {
             dir: 'ltr'
           },
           {
-            name: 'Română',
+            name: 'English',
             code: 'en',
             iso: 'en-US',
             file: 'en-US.js',
@@ -202,7 +202,7 @@ export default {
             dir: 'ltr'
           },
           {
-            name: 'English',
+            name: 'Romanian',
             code: 'is',
             iso: 'is',
             file: 'is.js',
@@ -218,14 +218,14 @@ export default {
         ],
         seo: true,
         baseUrl: 'https://test.recruto.ro',
-        defaultLocale: 'is',
+        defaultLocale: 'en',
         strategy: 'prefix_except_default',
         lazy: true,
         langDir: 'translations/',
         detectBrowserLanguage: {
           onlyOnRoot: true,
           useCookie: true,
-          fallbackLocale: 'is'
+          fallbackLocale: 'en'
         }
       }
     ],

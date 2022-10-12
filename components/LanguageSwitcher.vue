@@ -39,7 +39,7 @@
             class="text-none font-weight-regular pl-5 body-2"
             @click="logClick('en')"
           >
-            Română
+            English
           </v-list-item>
                <v-list-item
             link
@@ -47,7 +47,7 @@
             class="text-none font-weight-regular pl-5 body-2"
             @click="logClick('is')"
           >
-            English
+          Română
           </v-list-item>
         </v-col>
       </v-row>

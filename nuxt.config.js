@@ -125,7 +125,7 @@ export default {
             dir: 'ltr'
           },
           {
-            name: 'Română',
+            name: 'English',
             code: 'en',
             iso: 'en-US',
             file: 'en-US.js',
@@ -202,7 +202,7 @@ export default {
             dir: 'ltr'
           },
           {
-            name: 'English',
+            name: 'Română',
             code: 'is',
             iso: 'is',
             file: 'is.js',

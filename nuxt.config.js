@@ -271,7 +271,7 @@ export default {
       icons: false
     },
     lang: {
-      current: 'is'
+      current: 'en'
     },
     theme: {
       light: true,

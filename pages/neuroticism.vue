@@ -12,7 +12,7 @@
     </v-img>
     <v-card-text>
       <p>
-        Neuroticism refers to the tendency to experience negative feelings.
+        Neuroticism refers to the tendency to experience negative feelings 0.
       </p>
       <p>
         Freud originally used the term neurosis to describe a condition marked by mental distress, emotional suffering, and an inability to cope effectively with the normal demands of life.

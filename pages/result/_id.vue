@@ -127,7 +127,7 @@ export default {
         results: data.results,
         metadata: {
           timestamp: data.timestamp,
-          language: query.lang || data.language || 'is',
+          language: query.lang || data.language || 'en',
           availableLanguages: data.availableLanguages
         }
       }

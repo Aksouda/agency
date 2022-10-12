@@ -218,14 +218,14 @@ export default {
         ],
         seo: true,
         baseUrl: 'https://test.recruto.ro',
-        defaultLocale: 'is',
+        defaultLocale: 'en',
         strategy: 'prefix_except_default',
         lazy: true,
         langDir: 'translations/',
         detectBrowserLanguage: {
           onlyOnRoot: true,
           useCookie: true,
-          fallbackLocale: 'is'
+          fallbackLocale: 'en'
         }
       }
     ],

@@ -90,6 +90,12 @@ form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neurot
 	})(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
 </script>
 
+<script>
+
+const b24Header = document.getElementsByClassName("b24-form-header-padding");
+b24Header.innerHtml=`<h2 style="padding:10px 20px;text-align:center;">Acesta este un test gratuit, însă opțional. Dacă doriți sa fiți contactat de echipa noastră în vederea consilieri în cariera și a descoperirii de noi oportunități, completați formularul de mai jos</h2>`
+</script>
+
 
 
 

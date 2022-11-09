@@ -93,7 +93,7 @@ form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neurot
 <script>
 
 const b24Header = document.getElementsByClassName("b24-form-header-padding");
-b24Header.innerHtml=`<h2 style="padding:10px 20px;text-align:center;">Acesta este un test gratuit, însă opțional. Dacă doriți sa fiți contactat de echipa noastră în vederea consilieri în cariera și a descoperirii de noi oportunități, completați formularul de mai jos</h2>`;
+b24Header[0].innerHtml=`<h2 style="padding:10px 20px;text-align:center;">Acesta este un test gratuit, însă opțional. Dacă doriți sa fiți contactat de echipa noastră în vederea consilieri în cariera și a descoperirii de noi oportunități, completați formularul de mai jos</h2>`;
 </script>
 
 

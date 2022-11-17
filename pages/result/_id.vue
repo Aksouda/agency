@@ -72,9 +72,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      
 
 var testid = window.location.href;
-console.log(Openness);
 
 
+const dealid = localStorage.getItem('dealId');
+ async function updateDeal {
+  let req = await fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealid}&fields[UF_CRM_1647528341000]=${Extraversion}&fields[UF_CRM_1647528370287]=${Openness}&fields[UF_CRM_1647528380638]=${Conscientiousness}&fields[UF_CRM_1647528390894]=${Agreeableness}&fields[UF_CRM_1647528403430]=${Neuroticism}&fields[STAGE_ID]=C3:FINAL_INVOIC`);
+  console.log(req.json);
+ }
+     
 
 </script>
 <script>window.addEventListener('b24:form:init', function (event)  { let form = event.detail.object; if (form.identification.id == 9) { form.setProperty('consciousness', Conscientiousness);
@@ -133,7 +138,7 @@ export default {
     try {
       const lang = query.lang ? `/${query.lang}` : ''
       const url = process.env.API_URL + 'result/' + params.id + lang
-
+      
       const data = await $axios.$get(url)
 
       return {

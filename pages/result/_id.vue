@@ -72,7 +72,8 @@ var testid = window.location.href;
 
 const dealId = localStorage.getItem('dealId');
  console.log(dealId);
- function updateDeal() {
+
+ async function updateDeal() {
     if(dealId == null){
         console.log('no query params');
        
@@ -101,17 +102,16 @@ const dealId = localStorage.getItem('dealId');
 
     }
     else{
-      //  let dealinfo = await fetch(`https://bitrix.monefy.ro/rest/52/8xdz4hcm4mlmgdb9/crm.deal.get.json?id=${dealId}`);
-      //   let response = await dealinfo.json();
-      fetch(`https://bitrix.monefy.ro/rest/52/8xdz4hcm4mlmgdb9/crm.deal.get.json?id=${dealId}`)
-    .then(x => x.json())
-    .then(function(){ 
-      let dealStage = data.result.STAGE_ID;
+       let dealinfo = await fetch(`https://bitrix.monefy.ro/rest/52/8xdz4hcm4mlmgdb9/crm.deal.get.json?id=${dealId}`);
+        let response = await dealinfo.json();
+      let dealStage = response.result.STAGE_ID;
+      console.log(response);
     
     if(dealStage == 'C3:PREPARATION'){
-      fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}&fields[UF_CRM_1647528341000]=${Extraversion}&fields[UF_CRM_1647528370287]=${Openness}&fields[UF_CRM_1647528380638]=${Conscientiousness}&fields[UF_CRM_1647528390894]=${Agreeableness}&fields[UF_CRM_1647528403430]=${Neuroticism}&fields[STAGE_ID]=C3:FINAL_INVOICE`)
-    .then(y => y.json())
-    .then(data2 =>  console.log(data2))
+      let dealChange = await fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}&fields[UF_CRM_1647528341000]=${Extraversion}&fields[UF_CRM_1647528370287]=${Openness}&fields[UF_CRM_1647528380638]=${Conscientiousness}&fields[UF_CRM_1647528390894]=${Agreeableness}&fields[UF_CRM_1647528403430]=${Neuroticism}&fields[STAGE_ID]=C3:FINAL_INVOICE`);
+        let res = await dealChange.json();
+        console.log(res);
+      
             
   
         }else{
@@ -139,14 +139,14 @@ const dealId = localStorage.getItem('dealId');
 
         }
     }
-    );
+    
          
     }
   
 
 
   
- }
+ 
      
 updateDeal();
 </script>

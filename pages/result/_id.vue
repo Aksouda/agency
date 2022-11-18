@@ -50,6 +50,9 @@
            name="fname"
            :value="domain.score">
       </div>
+      <div id="bform">
+
+      </div>
       <script>
       if(document.getElementById('Extraversie') == null){
         var Extraversion = document.getElementById('Extraversion').value;
@@ -98,7 +101,7 @@ const dealId = localStorage.getItem('dealId');
     <\/script>`;
 
   const scriptEl = document.createRange().createContextualFragment(html);
-  document.getElementsByTagName('head')[0].append(scriptEl);
+  document.getElementsById('bform').append(scriptEl);
 
     }
     else{
@@ -136,7 +139,7 @@ const dealId = localStorage.getItem('dealId');
             <\/script>`;
 
   const scriptEl = document.createRange().createContextualFragment(html);
-  document.getElementsByTagName('head')[0].append(scriptEl);
+  document.getElementsById('bform').append(scriptEl);
 
         }
     }

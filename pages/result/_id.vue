@@ -80,83 +80,7 @@ var testid = window.location.href;
 const dealId = localStorage.getItem('dealId');
  console.log(dealId);
 
- async function updateDeal() {
-    if(dealId == null){
-        console.log('no query params');
-       
 
-        const html =
-    `<script>
-    window.addEventListener('b24:form:init', function (event)  { let form = event.detail.object; if (form.identification.id == 9) { form.setProperty('consciousness', Conscientiousness);
-    form.setProperty('extraversion', Extraversion);
-    form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neuroticism);   form.setProperty('Agreeableness', Agreeableness); form.setProperty('testid', testid);    }}); 
-    <\/script>
-    <script data-b24-form="auto/9/mecp9z" data-skip-moving="true">
-        (function(w,d,u){
-            var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-        })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
-    <\/script>
-        <script data-b24-form="inline/9/mecp9z" data-skip-moving="true">
-      (function(w,d,u){
-        var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-      })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
-    <\/script>`;
-
-  const scriptEl = document.createRange().createContextualFragment(html);
-  document.getElementById('bform').append(scriptEl);
-
-    }
-    else{
-       let dealinfo = await fetch(`https://bitrix.monefy.ro/rest/52/8xdz4hcm4mlmgdb9/crm.deal.get.json?id=${dealId}`);
-        let response = await dealinfo.json();
-      let dealStage = response.result.STAGE_ID;
-      console.log(response);
-    
-    if(dealStage == 'C3:PREPARATION'){
-      let dealChange = await fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}\&fields[STAGE_ID]=C3:FINAL_INVOICE`);
-        let res = await dealChange.json();
-        console.log(res);
-        
-      
-            
-  
-        }else{
-          const html =
-            `<script>
-            window.addEventListener('b24:form:init', function (event)  { let form = event.detail.object; if (form.identification.id == 9) { form.setProperty('consciousness', Conscientiousness);
-            form.setProperty('extraversion', Extraversion);
-            form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neuroticism);   form.setProperty('Agreeableness', Agreeableness); form.setProperty('testid', testid);    }}); 
-            <\/script>
-            <script data-b24-form="auto/9/mecp9z" data-skip-moving="true">
-                (function(w,d,u){
-                    var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-                    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-                })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
-            <\/script>
-            <script data-b24-form="inline/9/mecp9z" data-skip-moving="true">
-              (function(w,d,u){
-                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-              })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
-            <\/script>`;
-
-  const scriptEl = document.createRange().createContextualFragment(html);
-  document.getElementById('bform').append(scriptEl);
-
-        }
-    }
-    
-         
-    }
-  
-
-
-  
- 
-     
-updateDeal();
 </script>
 
 
@@ -234,14 +158,13 @@ export default {
       ]
     }
   },
-  mounted () {
+  async mounted () {
     this.$amplitude.getInstance().logEvent('b5.test', { part: 'result' })
+    if(dealId == null){
+        console.log('no query params');
+       
 
-
-
-
-    console.log(Extraversion)
-    const html =
+        const html =
     `<script>
     window.addEventListener('b24:form:init', function (event)  { let form = event.detail.object; if (form.identification.id == 9) { form.setProperty('consciousness', Conscientiousness);
     form.setProperty('extraversion', Extraversion);
@@ -253,15 +176,56 @@ export default {
             var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
     <\/script>
-    <script data-b24-form="inline/9/mecp9z" data-skip-moving="true">
+        <script data-b24-form="inline/9/mecp9z" data-skip-moving="true">
       (function(w,d,u){
         var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
         var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
       })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
-    <\/script>`
+    <\/script>`;
 
-    const scriptEl = document.createRange().createContextualFragment(html)
-    this.$refs.bform.appendChild(scriptEl)
+  const scriptEl = document.createRange().createContextualFragment(html);
+  this.$refs.bform.appendChild(scriptEl)
+
+    }
+    else{
+       let dealinfo = await fetch(`https://bitrix.monefy.ro/rest/52/8xdz4hcm4mlmgdb9/crm.deal.get.json?id=${dealId}`);
+        let response = await dealinfo.json();
+      let dealStage = response.result.STAGE_ID;
+      console.log(response);
+    
+    if(dealStage == 'C3:PREPARATION'){
+      let dealChange = await fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}&fields[STAGE_ID]=C3:FINAL_INVOICE`);
+        let res = await dealChange.json();
+        console.log(res);
+        
+      
+            
+  
+        }else{
+          const html =
+            `<script>
+            window.addEventListener('b24:form:init', function (event)  { let form = event.detail.object; if (form.identification.id == 9) { form.setProperty('consciousness', Conscientiousness);
+            form.setProperty('extraversion', Extraversion);
+            form.setProperty('openness', Openness);   form.setProperty('Neuroticism', Neuroticism);   form.setProperty('Agreeableness', Agreeableness); form.setProperty('testid', testid);    }}); 
+            <\/script>
+            <script data-b24-form="auto/9/mecp9z" data-skip-moving="true">
+                (function(w,d,u){
+                    var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+                    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+                })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
+            <\/script>
+            <script data-b24-form="inline/9/mecp9z" data-skip-moving="true">
+              (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+              })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
+            <\/script>`;
+
+  const scriptEl = document.createRange().createContextualFragment(html);
+  this.$refs.bform.appendChild(scriptEl)
+
+        }
+    }
 },
   methods: {
     changeLanguage (lang) {

@@ -75,7 +75,7 @@ var testid = window.location.href;
 
 
 const dealid = localStorage.getItem('dealId');
- async function updateDeal {
+ async function updateDeal () {
   let req = await fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealid}&fields[UF_CRM_1647528341000]=${Extraversion}&fields[UF_CRM_1647528370287]=${Openness}&fields[UF_CRM_1647528380638]=${Conscientiousness}&fields[UF_CRM_1647528390894]=${Agreeableness}&fields[UF_CRM_1647528403430]=${Neuroticism}&fields[STAGE_ID]=C3:FINAL_INVOIC`);
   console.log(req.json);
  }

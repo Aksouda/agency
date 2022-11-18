@@ -101,7 +101,7 @@ const dealId = localStorage.getItem('dealId');
     <\/script>`;
 
   const scriptEl = document.createRange().createContextualFragment(html);
-  document.getElementsById('bform').append(scriptEl);
+  document.getElementById('bform').append(scriptEl);
 
     }
     else{
@@ -139,7 +139,7 @@ const dealId = localStorage.getItem('dealId');
             <\/script>`;
 
   const scriptEl = document.createRange().createContextualFragment(html);
-  document.getElementsById('bform').append(scriptEl);
+  document.getElementById('bform').append(scriptEl);
 
         }
     }

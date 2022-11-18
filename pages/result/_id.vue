@@ -112,7 +112,7 @@ const dealId = localStorage.getItem('dealId');
       let dealStage = data.result.STAGE_ID;
     
     if(dealStage == 'C3:PREPARATION'){
-      fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}&fields[UF_CRM_1647528341000]=${Extraversion}&fields[UF_CRM_1647528370287]=${Openness}&fields[UF_CRM_1647528380638]=${Conscientiousness}&fields[UF_CRM_1647528390894]=${Agreeableness}&fields[UF_CRM_1647528403430]=${Neuroticism}&fields[STAGE_ID]=C3:FINAL_INVOIC`)
+      fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}&fields[UF_CRM_1647528341000]=${Extraversion}&fields[UF_CRM_1647528370287]=${Openness}&fields[UF_CRM_1647528380638]=${Conscientiousness}&fields[UF_CRM_1647528390894]=${Agreeableness}&fields[UF_CRM_1647528403430]=${Neuroticism}&fields[STAGE_ID]=C3:FINAL_INVOICE`)
     .then(y => y.json())
     .then(data2 =>  console.log(data2))
             

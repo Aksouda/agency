@@ -1,8 +1,4 @@
 <template>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><ifr ame src="https://www.googletagmanager.com/ns.html?id=GTM-WGLJR9Q"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
   <v-container>
     <div v-if="results">
       <v-row>

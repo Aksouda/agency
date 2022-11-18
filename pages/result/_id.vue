@@ -182,7 +182,7 @@ const dealId = localStorage.getItem('dealId');
   
  }
      
- updateDeal();
+ //updateDeal();
 </script>
 
 

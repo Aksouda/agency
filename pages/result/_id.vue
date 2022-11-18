@@ -111,6 +111,7 @@ const dealId = localStorage.getItem('dealId');
       let dealChange = await fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}&fields[UF_CRM_1647528341000]=${Extraversion}&fields[UF_CRM_1647528370287]=${Openness}&fields[UF_CRM_1647528380638]=${Conscientiousness}&fields[UF_CRM_1647528390894]=${Agreeableness}&fields[UF_CRM_1647528403430]=${Neuroticism}&fields[STAGE_ID]=C3:FINAL_INVOICE`);
         let res = await dealChange.json();
         console.log(res);
+        console.log(Extraversion);
       
             
   

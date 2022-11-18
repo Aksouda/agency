@@ -219,8 +219,8 @@ export default {
     mdiMenuDown
   }),
   ready() {
-    console.log(Extraversion);
-    const html =
+            console.log(Extraversion)
+            const html =
             `<script>
             window.addEventListener('b24:form:init', function (event)  { let form = event.detail.object; if (form.identification.id == 9) { form.setProperty('consciousness', Conscientiousness);
             form.setProperty('extraversion', Extraversion);
@@ -237,10 +237,10 @@ export default {
                 var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
               })(window,document,'https://bitrix.monefy.ro/upload/crm/form/loader_9_mecp9z.js');
-            <\/script>`;
+            <\/script>`
 
-  const scriptEl = document.createRange().createContextualFragment(html);
-             this.$refs.bform.appendChild(scriptEl);
+            const scriptEl = document.createRange().createContextualFragment(html)
+             this.$refs.bform.appendChild(scriptEl)
         },
   head () {
     return {

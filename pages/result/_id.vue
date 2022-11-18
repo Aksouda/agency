@@ -111,7 +111,7 @@ const dealId = localStorage.getItem('dealId');
       console.log(response);
     
     if(dealStage == 'C3:PREPARATION'){
-      let dealChange = await fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}&fields[STAGE_ID]=C3:FINAL_INVOICE`);
+      let dealChange = await fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}\&fields[STAGE_ID]=C3:FINAL_INVOICE`);
         let res = await dealChange.json();
         console.log(res);
         console.log(Extraversion);

@@ -44,12 +44,13 @@
         v-for="domain in results"
         :key="domain.id"
       >
-  <input
+    <input
            :id="domain.title"
            type="hidden"
            name="fname"
            :value="domain.score">
       </div>
+
       <div 
       id="bform"
       ref="bform"
@@ -117,7 +118,7 @@ const dealId = localStorage.getItem('dealId');
       let dealChange = await fetch(`https://bitrix.monefy.ro/rest/52/kaals3ixqjdtjz7e/crm.deal.update.json?id=${dealId}\&fields[STAGE_ID]=C3:FINAL_INVOICE`);
         let res = await dealChange.json();
         console.log(res);
-        console.log(Extraversion);
+        
       
             
   
@@ -235,6 +236,10 @@ export default {
   },
   mounted () {
     this.$amplitude.getInstance().logEvent('b5.test', { part: 'result' })
+
+
+
+
     console.log(Extraversion)
     const html =
     `<script>
